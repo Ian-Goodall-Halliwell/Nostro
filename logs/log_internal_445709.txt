@@ -1,0 +1,45 @@
+{}
+2022-08-01 07:25:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-08-01 07:25:00 UTC  or 2022-08-01 03:25:00 EST
+1min
+[5.031008, -5.457089]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-01 03:28:18.734 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-01 03:28:18.785 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-01 03:28:18.867 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-01 03:28:22.599 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-01 03:28:23.093 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[218832:MainThread](2022-08-01 03:28:23,097) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[218832:MainThread](2022-08-01 03:28:25,099) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[218832:MainThread](2022-08-01 03:28:25,276) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[218832:MainThread](2022-08-01 03:28:25,276) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+[218832:MainThread](2022-08-01 03:28:39,418) INFO - qlib.timer - [log.py:113] - Time cost: 14.135s | Loading data Done
+[218832:MainThread](2022-08-01 03:28:39,420) INFO - qlib.timer - [log.py:113] - Time cost: 0.002s | DropnaLabel Done
+[218832:MainThread](2022-08-01 03:28:39,424) INFO - qlib.timer - [log.py:113] - Time cost: 0.004s | CSZScoreNorm Done
+[218832:MainThread](2022-08-01 03:28:39,424) INFO - qlib.timer - [log.py:113] - Time cost: 0.006s | fit & process data Done
+[I 2022-08-01 03:28:51,145] Using an existing study with name 'backtest' instead of creating a new one.
+[218832:Thread-51](2022-08-01 03:28:51,165) WARNING - qlib.online operator - [exchange.py:418] - (stock_id:ICPBUSD, trade_time:(Timestamp('2022-08-01 07:26:00'), Timestamp('2022-08-01 07:30:59')), $close): None!!!
+[218832:Thread-51](2022-08-01 03:28:51,166) WARNING - qlib.online operator - [exchange.py:419] - setting deal_price to close price
+Exception in thread Thread-51:
+Traceback (most recent call last):
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "create_orders.py", line 174, in threadexec
+    buy_order_list,sell_order_list = model.read_preds(snap=snp,clnam=o,time=d)
+  File "C:\Users\Ian\Documents\Financial testing\model.py", line 516, in read_preds
+    buy_order_list, sell_order_list, _= dropstrat.generate_trade_decision(lastdaypreds)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\qlib\contrib\strategy\signal_strategy.py", line 1115, in generate_trade_decision
+    if sell_price < timep:
+TypeError: '<' not supported between instances of 'float' and 'NoneType'

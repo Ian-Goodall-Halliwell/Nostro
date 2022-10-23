@@ -1,0 +1,109 @@
+
+Traceback (most recent call last):
+  File "create_orders.py", line 357, in <module>
+    fire.Fire(mainfunc)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "create_orders.py", line 342, in mainfunc
+    upd()
+  File "create_orders.py", line 271, in upd
+    orders = client.get_open_orders()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 2019, in get_open_orders
+    return self._get('openOrders', True, data=params)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 371, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 334, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 315, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 324, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+
+Trades updated
+
+Traceback (most recent call last):
+  File "create_orders.py", line 357, in <module>
+    fire.Fire(mainfunc)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "create_orders.py", line 342, in mainfunc
+    upd()
+  File "create_orders.py", line 271, in upd
+    orders = client.get_open_orders()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 2019, in get_open_orders
+    return self._get('openOrders', True, data=params)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 371, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 334, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 315, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 324, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+
+Trades updated
+
+Traceback (most recent call last):
+  File "create_orders.py", line 357, in <module>
+    fire.Fire(mainfunc)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "create_orders.py", line 342, in mainfunc
+    upd()
+  File "create_orders.py", line 271, in upd
+    orders = client.get_open_orders()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 2019, in get_open_orders
+    return self._get('openOrders', True, data=params)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 371, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 334, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 315, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 324, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+
+Trades updated
+
+Traceback (most recent call last):
+  File "create_orders.py", line 357, in <module>
+    fire.Fire(mainfunc)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "create_orders.py", line 342, in mainfunc
+    upd()
+  File "create_orders.py", line 271, in upd
+    orders = client.get_open_orders()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 2019, in get_open_orders
+    return self._get('openOrders', True, data=params)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 371, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 334, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 315, in _request
+    return self._handle_response(self.response)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 324, in _handle_response
+    raise BinanceAPIException(response, response.status_code, response.text)
+binance.exceptions.BinanceAPIException: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+
+Trades updated
+

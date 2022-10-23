@@ -1,0 +1,82 @@
+{}
+2022-08-01 07:30:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-08-01 07:30:00 UTC  or 2022-08-01 03:30:00 EST
+1min
+[5.031008, -5.457089]
+{'IMXBUSD': {'amnt': 1030.66172209, 'price': 1.0889999866485596}}
+{'FLUXBUSD': {'amnt': 1804.41147823, 'price': 0.621999979019165}}
+buy IMXBUSD, 1030.66
+{'symbol': 'IMXBUSD', 'orderId': 53340834, 'orderListId': -1, 'clientOrderId': 'Ox853RxsyV4cmOkACYJsZc', 'transactTime': 1659339049223}
+Completed {'IMXBUSD': 1030.66172209}
+buy FLUXBUSD, 1804.41
+{'symbol': 'FLUXBUSD', 'orderId': 20471796, 'orderListId': -1, 'clientOrderId': 'iUUeO1fJ6BXYtkzqAlDugl', 'transactTime': 1659339050966}
+Completed {'FLUXBUSD': 1804.41147823}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-01 03:30:19.486 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-01 03:30:19.533 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-01 03:30:19.611 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-01 03:30:23.411 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-01 03:30:23.907 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[228692:MainThread](2022-08-01 03:30:23,911) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[228692:MainThread](2022-08-01 03:30:25,915) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[228692:MainThread](2022-08-01 03:30:26,086) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[228692:MainThread](2022-08-01 03:30:26,086) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+[228692:MainThread](2022-08-01 03:30:39,178) INFO - qlib.timer - [log.py:113] - Time cost: 13.086s | Loading data Done
+[228692:MainThread](2022-08-01 03:30:39,180) INFO - qlib.timer - [log.py:113] - Time cost: 0.002s | DropnaLabel Done
+[228692:MainThread](2022-08-01 03:30:39,184) INFO - qlib.timer - [log.py:113] - Time cost: 0.003s | CSZScoreNorm Done
+[228692:MainThread](2022-08-01 03:30:39,184) INFO - qlib.timer - [log.py:113] - Time cost: 0.006s | fit & process data Done
+[I 2022-08-01 03:30:49,089] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+TypeError: not all arguments converted during string formatting
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-01 03:31:20.884 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-01 03:31:20.936 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-01 03:31:21.080 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-01 03:31:24.628 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-01 03:31:25.124 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[229888:MainThread](2022-08-01 03:31:25,128) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[229888:MainThread](2022-08-01 03:31:27,132) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[229888:MainThread](2022-08-01 03:31:27,302) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[229888:MainThread](2022-08-01 03:31:27,302) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+[229888:MainThread](2022-08-01 03:31:27,314) ERROR - qlib.workflow - [utils.py:38] - An exception has been raised[TypeError: not all arguments converted during string formatting].
+  File "create_orders.py", line 366, in <module>
+    fire.Fire(mainfunc)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "create_orders.py", line 358, in mainfunc
+    d = create_orders()
+  File "create_orders.py", line 41, in create_orders
+    model.run(d,False)
+  File "C:\Users\Ian\Documents\Financial testing\model.py", line 349, in run
+    dataset = init_instance_by_config(cf['task']['dataset'])
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\qlib\utils\__init__.py", line 340, in init_instance_by_config
+    return klass(**cls_kwargs, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\qlib\data\dataset\__init__.py", line 115, in __init__
+    self.handler: DataHandler = init_instance_by_config(handler, accept_types=DataHandler)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\qlib\utils\__init__.py", line 340, in init_instance_by_config
+    return klass(**cls_kwargs, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\qlib\contrib\data\handler.py", line 167, in __init__
+    "label": kwargs.get("label", self.get_label_config()),
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\qlib\contrib\data\handler.py", line 200, in get_label_config
+    fields += ["Ref($close, -2)/Ref($close,-1) - 1" % (d) for d in windows]
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\qlib\contrib\data\handler.py", line 200, in <listcomp>
+    fields += ["Ref($close, -2)/Ref($close,-1) - 1" % (d) for d in windows]

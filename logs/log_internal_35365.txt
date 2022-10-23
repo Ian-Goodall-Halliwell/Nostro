@@ -1,0 +1,36 @@
+{}
+IndexError: index -1 is out of bounds for axis 0 with size 0
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 09:50:37.527 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 09:50:37.972 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 09:50:38.057 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 09:50:44.870 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 09:50:45.203 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[18212:MainThread](2022-07-27 09:50:45,209) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[18212:MainThread](2022-07-27 09:50:47,215) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[18212:MainThread](2022-07-27 09:50:47,469) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[18212:MainThread](2022-07-27 09:50:47,469) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[18212:MainThread](2022-07-27 09:50:47,524) INFO - qlib.timer - [log.py:113] - Time cost: 0.049s | Loading data Done
+[18212:MainThread](2022-07-27 09:50:47,525) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[18212:MainThread](2022-07-27 09:50:49,507) ERROR - qlib.workflow - [utils.py:38] - An exception has been raised[IndexError: index -1 is out of bounds for axis 0 with size 0].
+  File "create_orders.py", line 357, in <module>
+    fire.Fire(mainfunc)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "create_orders.py", line 349, in mainfunc
+    d = create_orders()
+  File "create_orders.py", line 41, in create_orders
+    model.run(d,False)
+  File "C:\Users\Ian\Documents\Financial testing\model.py", line 393, in run
+    p = preds.index[-1][0]
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\pandas\core\indexes\multi.py", line 2042, in __getitem__
+    if level_codes[key] == -1:

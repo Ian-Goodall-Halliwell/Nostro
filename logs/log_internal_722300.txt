@@ -1,0 +1,1145 @@
+{}
+2022-08-06 02:06:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-08-06 02:06:00 UTC  or 2022-08-05 22:06:00 EST
+[5.709402, -5.409925]
+{'WAVESBUSD': {'amnt': 5.8328972100000005, 'price': 6.1529998779296875}}
+{'OPBUSD': {'amnt': 18.395910960000002, 'price': 1.9279999732971191}}
+sell WAXPBUSD, 2363.0
+{'symbol': 'WAXPBUSD', 'orderId': 63688827, 'orderListId': -1, 'clientOrderId': 'phOQVxjM2fMLDT9hjAj5pw', 'transactTime': 1659751611107}
+Completed {'WAXPBUSD': 2363.0}
+sell ALGOBUSD, 307.0
+{'symbol': 'ALGOBUSD', 'orderId': 355030444, 'orderListId': -1, 'clientOrderId': '2RA0AhC2K5DdAIiC3xcwN5', 'transactTime': 1659751612257}
+Completed {'ALGOBUSD': 307.0}
+sell BNBBUSD, 0.443
+{'symbol': 'BNBBUSD', 'orderId': 1353597330, 'orderListId': -1, 'clientOrderId': 'PIfWT3IcTLjZ2diobRSOpY', 'transactTime': 1659751612992}
+Completed {'BNBBUSD': 0.44311015}
+sell ADABUSD, 198.3
+{'symbol': 'ADABUSD', 'orderId': 908304506, 'orderListId': -1, 'clientOrderId': 'gHRsVJpn9DhuzLvg831kPB', 'transactTime': 1659751614134}
+Completed {'ADABUSD': 198.3}
+sell EOSBUSD, 66.9
+{'symbol': 'EOSBUSD', 'orderId': 603848629, 'orderListId': -1, 'clientOrderId': 'oDXe2HC5ZtsHBedq5BJpUC', 'transactTime': 1659751614457}
+Completed {'EOSBUSD': 66.9}
+buy WAVESBUSD, 5.83
+{'symbol': 'WAVESBUSD', 'orderId': 239404219, 'orderListId': -1, 'clientOrderId': 'YyNZMGZCriaHJuhQoOsSiY', 'transactTime': 1659751614784}
+Completed {'WAVESBUSD': 5.8328972100000005}
+buy OPBUSD, 18.4
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:06:15.159 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:06:15.179 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:06:15.228 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:06:21.039 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:06:22.181 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[193980:MainThread](2022-08-05 22:06:22,184) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[193980:MainThread](2022-08-05 22:06:24,188) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[193980:MainThread](2022-08-05 22:06:24,417) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[193980:MainThread](2022-08-05 22:06:24,417) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.27s/it]100%|██████████| 2/2 [00:12<00:00,  6.01s/it]100%|██████████| 2/2 [00:12<00:00,  6.05s/it]
+[193980:MainThread](2022-08-05 22:06:36,521) INFO - qlib.timer - [log.py:113] - Time cost: 12.098s | Loading data Done
+[193980:MainThread](2022-08-05 22:06:36,522) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:06:50,857] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:07:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-08-06 02:07:00 UTC  or 2022-08-05 22:07:00 EST
+[5.709402, -5.409925]
+{'WAXPBUSD': {'amnt': 503.07823808, 'price': 0.11400000005960464}}
+{'ALGOBUSD': {'amnt': 162.44292474, 'price': 0.3531999886035919}}
+{'EOSBUSD': {'amnt': 45.78886007, 'price': 1.2549999952316284}}
+{'ADABUSD': {'amnt': 111.43887526, 'price': 0.5149999856948853}}
+{'ETHBUSD': {'amnt': 0.13312163, 'price': 1731.1800537109375}}
+{'BTCBUSD': {'amnt': 0.10246848, 'price': 23228.58984375}}
+{'symbol': 'WAXPBUSD', 'origClientOrderId': 'phOQVxjM2fMLDT9hjAj5pw', 'orderId': 63688827, 'orderListId': -1, 'clientOrderId': 'hSzc0NcTGDUTVODjOLm02O', 'price': '0.11410000', 'origQty': '2363.00000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'SELL'}
+sell ATOMBUSD, 3.41
+{'symbol': 'ATOMBUSD', 'orderId': 401426294, 'orderListId': -1, 'clientOrderId': 'mZN0oaNrtAHaQYglJrVygY', 'transactTime': 1659751664284}
+Completed {'ATOMBUSD': 3.41}
+buy WAXPBUSD, 503.0
+{'symbol': 'WAXPBUSD', 'orderId': 63688865, 'orderListId': -1, 'clientOrderId': '4aEF12pqRcfaug1cQNc7Li', 'transactTime': 1659751665028}
+Completed {'WAXPBUSD': 503.07823808}
+buy ALGOBUSD, 162.0
+{'symbol': 'ALGOBUSD', 'orderId': 355030572, 'orderListId': -1, 'clientOrderId': 'xfYmJbzbKLwrUQvdvtNx9g', 'transactTime': 1659751665764}
+Completed {'ALGOBUSD': 162.44292474}
+buy EOSBUSD, 45.8
+{'symbol': 'EOSBUSD', 'orderId': 603848721, 'orderListId': -1, 'clientOrderId': 'fuKlTUVZnIe8aiFtYEK6Xe', 'transactTime': 1659751666497}
+Completed {'EOSBUSD': 45.78886007}
+buy ADABUSD, 111.4
+{'symbol': 'ADABUSD', 'orderId': 908304938, 'orderListId': -1, 'clientOrderId': 'WOapm7hvx88cn3SZigcLVY', 'transactTime': 1659751666825}
+Completed {'ADABUSD': 111.43887526}
+buy ETHBUSD, 0.1331
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy BTCBUSD, 0.10247
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:07:14.057 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:07:14.072 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:07:14.118 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:07:20.108 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:07:21.250 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[200408:MainThread](2022-08-05 22:07:21,254) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[200408:MainThread](2022-08-05 22:07:23,259) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[200408:MainThread](2022-08-05 22:07:23,466) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[200408:MainThread](2022-08-05 22:07:23,467) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.16s/it]100%|██████████| 2/2 [00:11<00:00,  5.74s/it]100%|██████████| 2/2 [00:11<00:00,  5.81s/it]
+[200408:MainThread](2022-08-05 22:07:35,089) INFO - qlib.timer - [log.py:113] - Time cost: 11.614s | Loading data Done
+[200408:MainThread](2022-08-05 22:07:35,089) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:07:43,429] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:08:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-08-06 02:08:00 UTC  or 2022-08-05 22:08:00 EST
+[5.709402, -5.409925]
+{'ADABUSD': {'amnt': 76.03838425000001, 'price': 0.5148000121116638}}
+{'WAVESBUSD': {'amnt': 6.44113242, 'price': 6.164999961853027}}
+{'OPBUSD': {'amnt': 20.36598275, 'price': 1.9290000200271606}}
+{'BNBBUSD': {'amnt': 0.22406563000000002, 'price': 315.1000061035156}}
+buy ADABUSD, 76.0
+{'symbol': 'ADABUSD', 'orderId': 908305227, 'orderListId': -1, 'clientOrderId': 'DmBzsPPRXcTcGAmFXwfIr7', 'transactTime': 1659751726629}
+Completed {'ADABUSD': 76.03838425000001}
+buy WAVESBUSD, 6.44
+{'symbol': 'WAVESBUSD', 'orderId': 239404701, 'orderListId': -1, 'clientOrderId': 'B4lIHSvgyMJanWNEen3Ly1', 'transactTime': 1659751727776}
+Completed {'WAVESBUSD': 6.44113242}
+buy OPBUSD, 20.37
+{'symbol': 'OPBUSD', 'orderId': 72814294, 'orderListId': -1, 'clientOrderId': '86pNRi9CDixMWiIBNkpg5X', 'transactTime': 1659751728513}
+Completed {'OPBUSD': 20.36598275}
+buy BNBBUSD, 0.224
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:08:13.714 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:08:13.737 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:08:13.787 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:08:19.521 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:08:20.670 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[221380:MainThread](2022-08-05 22:08:20,675) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[221380:MainThread](2022-08-05 22:08:22,802) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[221380:MainThread](2022-08-05 22:08:23,007) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[221380:MainThread](2022-08-05 22:08:23,007) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.13s/it]100%|██████████| 2/2 [00:11<00:00,  5.87s/it]100%|██████████| 2/2 [00:11<00:00,  5.91s/it]
+[221380:MainThread](2022-08-05 22:08:34,832) INFO - qlib.timer - [log.py:113] - Time cost: 11.819s | Loading data Done
+[221380:MainThread](2022-08-05 22:08:34,832) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:08:46,374] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:09:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-08-06 02:09:00 UTC  or 2022-08-05 22:09:00 EST
+[5.709402, -5.409925]
+{'ADABUSD': {'amnt': 28.7806652, 'price': 0.5151000022888184}}
+{'DOTBUSD': {'amnt': 1.8059366000000001, 'price': 8.65999984741211}}
+{'BNBBUSD': {'amnt': 0.14685509, 'price': 315.29998779296875}}
+buy ADABUSD, 28.8
+{'symbol': 'ADABUSD', 'orderId': 908305801, 'orderListId': -1, 'clientOrderId': 'G2rbTx3sy6JbopkQpOXzyz', 'transactTime': 1659751792090}
+Completed {'ADABUSD': 28.7806652}
+buy DOTBUSD, 1.81
+{'symbol': 'DOTBUSD', 'orderId': 533462634, 'orderListId': -1, 'clientOrderId': 'eiDEgFmlND1ODTXrIg7Dcr', 'transactTime': 1659751792828}
+Completed {'DOTBUSD': 1.8059366000000001}
+buy BNBBUSD, 0.147
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:09:18.828 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:09:18.839 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:09:18.885 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:09:24.781 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:09:25.950 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[221496:MainThread](2022-08-05 22:09:25,954) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[221496:MainThread](2022-08-05 22:09:27,957) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[221496:MainThread](2022-08-05 22:09:28,169) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[221496:MainThread](2022-08-05 22:09:28,169) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.15s/it]100%|██████████| 2/2 [00:11<00:00,  5.83s/it]100%|██████████| 2/2 [00:11<00:00,  5.88s/it]
+[221496:MainThread](2022-08-05 22:09:39,930) INFO - qlib.timer - [log.py:113] - Time cost: 11.753s | Loading data Done
+[221496:MainThread](2022-08-05 22:09:39,930) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:09:51,841] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:10:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:10:00 UTC  or 2022-08-05 22:10:00 EST
+[5.709402, -5.409925]
+{'ETHBUSD': {'amnt': 0.10809049, 'price': 1731.4000244140625}}
+{'FTMBUSD': {'amnt': 37.39470574, 'price': 0.37560001015663147}}
+{'WAVESBUSD': {'amnt': 2.37179567, 'price': 6.165999889373779}}
+{'BNBBUSD': {'amnt': 0.14446949, 'price': 315.0}}
+sell WAXPBUSD, 2363.0
+{'symbol': 'WAXPBUSD', 'orderId': 63689001, 'orderListId': -1, 'clientOrderId': 'NpAfEbfQR1IC8xThrL8vLl', 'transactTime': 1659751849220}
+Completed {'WAXPBUSD': 2363.0}
+sell EOSBUSD, 45.8
+{'symbol': 'EOSBUSD', 'orderId': 603848990, 'orderListId': -1, 'clientOrderId': 'LoRcDX0LkvadatQRUpRFfg', 'transactTime': 1659751849544}
+Completed {'EOSBUSD': 45.8}
+sell DOTBUSD, 1.81
+{'symbol': 'DOTBUSD', 'orderId': 533462898, 'orderListId': -1, 'clientOrderId': 'DuEku59U2GJrWn2aBbZVKO', 'transactTime': 1659751850280}
+Completed {'DOTBUSD': 1.81}
+buy ETHBUSD, 0.1081
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy FTMBUSD, 37.0
+{'symbol': 'FTMBUSD', 'orderId': 509438142, 'orderListId': -1, 'clientOrderId': '82psS62Bnr9ALjflPM68ok', 'transactTime': 1659751851748}
+Completed {'FTMBUSD': 37.39470574}
+buy WAVESBUSD, 2.37
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy BNBBUSD, 0.144
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:10:14.927 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:10:14.951 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:10:14.999 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:10:21.014 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:10:22.160 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[199332:MainThread](2022-08-05 22:10:22,164) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[199332:MainThread](2022-08-05 22:10:24,167) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[199332:MainThread](2022-08-05 22:10:24,379) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[199332:MainThread](2022-08-05 22:10:24,380) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.21s/it]100%|██████████| 2/2 [00:11<00:00,  5.89s/it]100%|██████████| 2/2 [00:11<00:00,  5.93s/it]
+[199332:MainThread](2022-08-05 22:10:36,262) INFO - qlib.timer - [log.py:113] - Time cost: 11.872s | Loading data Done
+[199332:MainThread](2022-08-05 22:10:36,262) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:10:48,572] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:11:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:11:00 UTC  or 2022-08-05 22:11:00 EST
+[5.709402, -5.409925]
+{'BNBBUSD': {'amnt': 0.1, 'price': 315.0}}
+{'SOLBUSD': {'amnt': 0.1, 'price': 40.36000061035156}}
+sell WAVESBUSD, 6.42
+{'symbol': 'WAVESBUSD', 'orderId': 239405969, 'orderListId': -1, 'clientOrderId': '9DvpRulIxIt6Xv76oXUruQ', 'transactTime': 1659751916846}
+Completed {'WAVESBUSD': 6.42}
+sell DOTBUSD, 1.81
+{'symbol': 'DOTBUSD', 'orderId': 533463108, 'orderListId': -1, 'clientOrderId': '7VDy6qLFMZhsZZsmn6Igz5', 'transactTime': 1659751917168}
+Completed {'DOTBUSD': 1.81}
+buy BNBBUSD, 0.1
+{'symbol': 'BNBBUSD', 'orderId': 1353599306, 'orderListId': -1, 'clientOrderId': 'Q8a9BPpQslNGl39sri5Lw6', 'transactTime': 1659751917905}
+Completed {'BNBBUSD': 0.1}
+buy SOLBUSD, 0.1
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:11:19.763 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:11:19.787 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:11:19.838 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:11:25.792 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:11:26.944 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[218780:MainThread](2022-08-05 22:11:26,948) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[218780:MainThread](2022-08-05 22:11:28,953) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[218780:MainThread](2022-08-05 22:11:29,158) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[218780:MainThread](2022-08-05 22:11:29,158) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.19s/it]100%|██████████| 2/2 [00:11<00:00,  5.86s/it]100%|██████████| 2/2 [00:11<00:00,  5.91s/it]
+[218780:MainThread](2022-08-05 22:11:40,987) INFO - qlib.timer - [log.py:113] - Time cost: 11.822s | Loading data Done
+[218780:MainThread](2022-08-05 22:11:40,987) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:11:55,935] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:12:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:12:00 UTC  or 2022-08-05 22:12:00 EST
+[5.709402, -5.409925]
+{'WAXPBUSD': {'amnt': 1422.54732998, 'price': 0.11400000005960464}}
+{'ALGOBUSD': {'amnt': 459.7343264, 'price': 0.35280001163482666}}
+{'EOSBUSD': {'amnt': 129.31035563, 'price': 1.2549999952316284}}
+{'ADABUSD': {'amnt': 314.78853734, 'price': 0.5152999758720398}}
+{'SOLBUSD': {'amnt': 4.11681942, 'price': 40.369998931884766}}
+sell OPBUSD, 20.35
+{'symbol': 'OPBUSD', 'orderId': 72817841, 'orderListId': -1, 'clientOrderId': 'C3LBg5AvVCW9NTzFS9escq', 'transactTime': 1659751967643}
+Completed {'OPBUSD': 20.35}
+sell DOTBUSD, 1.81
+{'symbol': 'DOTBUSD', 'orderId': 533463497, 'orderListId': -1, 'clientOrderId': '0CldgiVUpkUtX21AGdovJl', 'transactTime': 1659751968799}
+Completed {'DOTBUSD': 1.81}
+buy WAXPBUSD, 1423.0
+{'symbol': 'WAXPBUSD', 'orderId': 63689078, 'orderListId': -1, 'clientOrderId': 'fGY5yEWzcm0RvEbjWW71p2', 'transactTime': 1659751969941}
+Completed {'WAXPBUSD': 1422.54732998}
+buy ALGOBUSD, 460.0
+{'symbol': 'ALGOBUSD', 'orderId': 355031003, 'orderListId': -1, 'clientOrderId': 'pcSspIPprCg1kQuct6SJEz', 'transactTime': 1659751971080}
+Completed {'ALGOBUSD': 459.7343264}
+buy EOSBUSD, 129.3
+{'symbol': 'EOSBUSD', 'orderId': 603849201, 'orderListId': -1, 'clientOrderId': 'q1kfY3MssJfxHqtRdMCKGm', 'transactTime': 1659751971810}
+Completed {'EOSBUSD': 129.31035563}
+buy ADABUSD, 314.8
+{'symbol': 'ADABUSD', 'orderId': 908306909, 'orderListId': -1, 'clientOrderId': 'pbbqavIKe0w92by84PXp1a', 'transactTime': 1659751972132}
+Completed {'ADABUSD': 314.78853734}
+buy SOLBUSD, 4.12
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:12:14.236 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:12:14.262 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:12:14.312 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:12:20.126 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:12:21.315 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[214136:MainThread](2022-08-05 22:12:21,319) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[214136:MainThread](2022-08-05 22:12:23,324) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[214136:MainThread](2022-08-05 22:12:23,534) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[214136:MainThread](2022-08-05 22:12:23,535) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.17s/it]100%|██████████| 2/2 [00:11<00:00,  5.89s/it]100%|██████████| 2/2 [00:11<00:00,  5.93s/it]
+[214136:MainThread](2022-08-05 22:12:35,402) INFO - qlib.timer - [log.py:113] - Time cost: 11.860s | Loading data Done
+[214136:MainThread](2022-08-05 22:12:35,402) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:12:46,990] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:13:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:13:00 UTC  or 2022-08-05 22:13:00 EST
+[5.709402, -5.409925]
+{'ALGOBUSD': {'amnt': 306.73413268, 'price': 0.35249999165534973}}
+{'WAVESBUSD': {'amnt': 17.60988687, 'price': 6.172999858856201}}
+{'WAXPBUSD': {'amnt': 948.24499259, 'price': 0.11400000005960464}}
+{'OPBUSD': {'amnt': 56.19160697, 'price': 1.9270000457763672}}
+{'FTMBUSD': {'amnt': 287.9522798, 'price': 0.37549999356269836}}
+{'SOLBUSD': {'amnt': 2.78010226, 'price': 40.33000183105469}}
+{'BTCBUSD': {'amnt': 0.10465282000000001, 'price': 23230.7109375}}
+buy ALGOBUSD, 307.0
+{'symbol': 'ALGOBUSD', 'orderId': 355031069, 'orderListId': -1, 'clientOrderId': 'ZuHR68KTA3OfKIMWAmBEld', 'transactTime': 1659752025448}
+Completed {'ALGOBUSD': 306.73413268}
+buy WAVESBUSD, 17.61
+{'symbol': 'WAVESBUSD', 'orderId': 239406608, 'orderListId': -1, 'clientOrderId': 'jrG8hleg9Adw7IbpVKF2Xx', 'transactTime': 1659752026324}
+Completed {'WAVESBUSD': 17.60988687}
+buy WAXPBUSD, 948.0
+{'symbol': 'WAXPBUSD', 'orderId': 63689118, 'orderListId': -1, 'clientOrderId': 'EY8LtCBXPTjhZ97xP1za36', 'transactTime': 1659752027087}
+Completed {'WAXPBUSD': 948.24499259}
+buy OPBUSD, 56.19
+{'symbol': 'OPBUSD', 'orderId': 72818604, 'orderListId': -1, 'clientOrderId': 'jZwixzKCiOfoZ8cWLaGCUJ', 'transactTime': 1659752027413}
+Completed {'OPBUSD': 56.19160697}
+buy FTMBUSD, 288.0
+{'symbol': 'FTMBUSD', 'orderId': 509438958, 'orderListId': -1, 'clientOrderId': 'DgmuTXPebAu0ASrLVfqGdE', 'transactTime': 1659752027741}
+Completed {'FTMBUSD': 287.9522798}
+buy SOLBUSD, 2.78
+{'symbol': 'SOLBUSD', 'orderId': 1127191912, 'orderListId': -1, 'clientOrderId': '5DyGZD3ebpld1nMNbcbQVN', 'transactTime': 1659752028066}
+Completed {'SOLBUSD': 2.78010226}
+buy BTCBUSD, 0.10465
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:13:14.289 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:13:14.317 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:13:14.366 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:13:20.330 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:13:21.534 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[212108:MainThread](2022-08-05 22:13:21,538) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[212108:MainThread](2022-08-05 22:13:23,546) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[212108:MainThread](2022-08-05 22:13:23,752) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[212108:MainThread](2022-08-05 22:13:23,753) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.11s/it]100%|██████████| 2/2 [00:11<00:00,  5.80s/it]100%|██████████| 2/2 [00:11<00:00,  5.85s/it]
+[212108:MainThread](2022-08-05 22:13:35,461) INFO - qlib.timer - [log.py:113] - Time cost: 11.702s | Loading data Done
+[212108:MainThread](2022-08-05 22:13:35,461) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:13:44,245] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:14:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:14:00 UTC  or 2022-08-05 22:14:00 EST
+[5.709402, -5.409925]
+{'WAXPBUSD': {'amnt': 350.71607752, 'price': 0.11400000005960464}}
+{'DOTBUSD': {'amnt': 4.71550041, 'price': 8.65999984741211}}
+{'ETHBUSD': {'amnt': 0.12308429, 'price': 1731.489990234375}}
+{'ADABUSD': {'amnt': 77.66692165, 'price': 0.5152999758720398}}
+{'ATOMBUSD': {'amnt': 3.77407242, 'price': 10.878999710083008}}
+{'symbol': 'WAVESBUSD', 'origClientOrderId': 'wUjxnQDmmFyoMcr4o83lUO', 'orderId': 239406668, 'orderListId': -1, 'clientOrderId': 'pokowskhZCTTyAQtOyyEWw', 'price': '6.18000000', 'origQty': '17.59000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:14:13.708 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:14:13.732 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:14:13.780 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:14:19.714 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:14:20.926 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[222252:MainThread](2022-08-05 22:14:20,932) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[222252:MainThread](2022-08-05 22:14:22,938) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[222252:MainThread](2022-08-05 22:14:23,140) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[222252:MainThread](2022-08-05 22:14:23,140) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.30s/it]100%|██████████| 2/2 [00:11<00:00,  5.91s/it]100%|██████████| 2/2 [00:11<00:00,  5.97s/it]
+[222252:MainThread](2022-08-05 22:14:35,086) INFO - qlib.timer - [log.py:113] - Time cost: 11.938s | Loading data Done
+[222252:MainThread](2022-08-05 22:14:35,086) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:14:48,410] Using an existing study with name 'backtest' instead of creating a new one.
+Exception in thread Thread-30:
+Traceback (most recent call last):
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "create_orders.py", line 186, in threadexec
+    execute_orders(client=client,name=o)
+  File "create_orders.py", line 228, in execute_orders
+    buyl, selll =cancel_all_orders(client,buyL=buyl,sellL=selll)
+  File "create_orders.py", line 194, in cancel_all_orders
+    buyL.pop(trade['symbol'])
+TypeError: 'str' object cannot be interpreted as an integer
+{}
+2022-08-06 02:15:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:15:00 UTC  or 2022-08-05 22:15:00 EST
+[5.709402, -5.409925]
+{'WAXPBUSD': {'amnt': 644.08449842, 'price': 0.11400000005960464}}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:15:19.155 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:15:19.163 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:15:19.220 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:15:24.982 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:15:26.240 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[220216:MainThread](2022-08-05 22:15:26,244) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[220216:MainThread](2022-08-05 22:15:28,248) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[220216:MainThread](2022-08-05 22:15:28,458) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[220216:MainThread](2022-08-05 22:15:28,458) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.17s/it]100%|██████████| 2/2 [00:11<00:00,  5.84s/it]100%|██████████| 2/2 [00:11<00:00,  5.89s/it]
+[220216:MainThread](2022-08-05 22:15:40,240) INFO - qlib.timer - [log.py:113] - Time cost: 11.777s | Loading data Done
+[220216:MainThread](2022-08-05 22:15:40,240) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:15:51,984] Using an existing study with name 'backtest' instead of creating a new one.
+Exception in thread Thread-30:
+Traceback (most recent call last):
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "create_orders.py", line 186, in threadexec
+    execute_orders(client=client,name=o)
+  File "create_orders.py", line 228, in execute_orders
+    buyl, selll =cancel_all_orders(client,buyL=buyl,sellL=selll)
+  File "create_orders.py", line 194, in cancel_all_orders
+    buyL.pop(trade['symbol'])
+TypeError: 'str' object cannot be interpreted as an integer
+{}
+2022-08-06 02:16:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:16:00 UTC  or 2022-08-05 22:16:00 EST
+[5.709402, -5.409925]
+{'WAXPBUSD': {'amnt': 644.08449842, 'price': 0.11400000005960464}}
+{'ATOMBUSD': {'amnt': 6.85073405, 'price': 10.875}}
+{'EOSBUSD': {'amnt': 58.59739692, 'price': 1.2549999952316284}}
+{'ETHBUSD': {'amnt': 0.14237326, 'price': 1732.56005859375}}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:16:14.375 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:16:14.398 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:16:14.445 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:16:20.395 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:16:21.534 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[222240:MainThread](2022-08-05 22:16:21,538) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[222240:MainThread](2022-08-05 22:16:23,551) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[222240:MainThread](2022-08-05 22:16:23,763) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[222240:MainThread](2022-08-05 22:16:23,764) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.12s/it]100%|██████████| 2/2 [00:11<00:00,  5.81s/it]100%|██████████| 2/2 [00:11<00:00,  5.85s/it]
+[222240:MainThread](2022-08-05 22:16:35,478) INFO - qlib.timer - [log.py:113] - Time cost: 11.709s | Loading data Done
+[222240:MainThread](2022-08-05 22:16:35,479) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:16:47,274] Using an existing study with name 'backtest' instead of creating a new one.
+Exception in thread Thread-30:
+Traceback (most recent call last):
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "create_orders.py", line 186, in threadexec
+    execute_orders(client=client,name=o)
+  File "create_orders.py", line 228, in execute_orders
+    buyl, selll =cancel_all_orders(client,buyL=buyl,sellL=selll)
+  File "create_orders.py", line 194, in cancel_all_orders
+    buyL.pop(trade['symbol'])
+TypeError: 'str' object cannot be interpreted as an integer
+{}
+2022-08-06 02:17:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:17:00 UTC  or 2022-08-05 22:17:00 EST
+[5.709402, -5.409925]
+{'EOSBUSD': {'amnt': 58.64878336, 'price': 1.253999948501587}}
+{'ATOMBUSD': {'amnt': 6.85003882, 'price': 10.876999855041504}}
+{'BTCBUSD': {'amnt': 0.10315743000000001, 'price': 23253.130859375}}
+{'DOTBUSD': {'amnt': 8.56830111, 'price': 8.670000076293945}}
+{'NEARBUSD': {'amnt': 14.48201195, 'price': 5.105000019073486}}
+{'symbol': 'WAXPBUSD', 'origClientOrderId': 'ZH3i1STnuapwfGTbMAQrrd', 'orderId': 63689243, 'orderListId': -1, 'clientOrderId': 'KpNBQ92fjcvLW6P2p96DFn', 'price': '0.11410000', 'origQty': '947.00000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+sell FTMBUSD, 288.0
+{'symbol': 'FTMBUSD', 'orderId': 509440303, 'orderListId': -1, 'clientOrderId': 'aOotls0ix5PKJaj44SWwja', 'transactTime': 1659752269230}
+Completed {'FTMBUSD': 288.0}
+sell OPBUSD, 56.13
+{'symbol': 'OPBUSD', 'orderId': 72822762, 'orderListId': -1, 'clientOrderId': 'K2vPTZH2n33Zq17a7B2ajr', 'transactTime': 1659752270775}
+Completed {'OPBUSD': 56.13}
+buy EOSBUSD, 58.6
+{'symbol': 'EOSBUSD', 'orderId': 603849988, 'orderListId': -1, 'clientOrderId': 'uQtgB0RgXbfDTveF5ZWZhX', 'transactTime': 1659752271517}
+Completed {'EOSBUSD': 58.64878336}
+buy ATOMBUSD, 6.85
+{'symbol': 'ATOMBUSD', 'orderId': 401430356, 'orderListId': -1, 'clientOrderId': '8taCUzp07OJYqKWPvxDzmP', 'transactTime': 1659752271842}
+Completed {'ATOMBUSD': 6.85003882}
+buy BTCBUSD, 0.10316
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy DOTBUSD, 8.57
+{'symbol': 'DOTBUSD', 'orderId': 533465061, 'orderListId': -1, 'clientOrderId': '7MTd4DUE2frasC1rtROBcO', 'transactTime': 1659752273723}
+Completed {'DOTBUSD': 8.56830111}
+buy NEARBUSD, 14.5
+{'symbol': 'NEARBUSD', 'orderId': 455993086, 'orderListId': -1, 'clientOrderId': 'v0VKOQj4Lao6wcJ2AV1IUg', 'transactTime': 1659752274045}
+Completed {'NEARBUSD': 14.48201195}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:17:14.920 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:17:14.934 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:17:14.984 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:17:20.824 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:17:21.985 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[220996:MainThread](2022-08-05 22:17:21,988) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[220996:MainThread](2022-08-05 22:17:23,992) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[220996:MainThread](2022-08-05 22:17:24,198) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[220996:MainThread](2022-08-05 22:17:24,198) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.25s/it]100%|██████████| 2/2 [00:11<00:00,  5.87s/it]100%|██████████| 2/2 [00:11<00:00,  5.93s/it]
+[220996:MainThread](2022-08-05 22:17:36,068) INFO - qlib.timer - [log.py:113] - Time cost: 11.863s | Loading data Done
+[220996:MainThread](2022-08-05 22:17:36,068) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:17:48,415] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:18:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-08-06 02:18:00 UTC  or 2022-08-05 22:18:00 EST
+[5.709402, -5.409925]
+{'DOTBUSD': {'amnt': 13.84551103, 'price': 8.649999618530273}}
+{'WAVESBUSD': {'amnt': 19.36732541, 'price': 6.171000003814697}}
+{'VETBUSD': {'amnt': 3757.95912863, 'price': 0.03164000064134598}}
+{'OPBUSD': {'amnt': 61.801433530000004, 'price': 1.9270000457763672}}
+sell ALGOBUSD, 307.0
+{'symbol': 'ALGOBUSD', 'orderId': 355031608, 'orderListId': -1, 'clientOrderId': 'Vnu2BfepZxR04Zr13e5NTM', 'transactTime': 1659752335728}
+Completed {'ALGOBUSD': 307.0}
+sell NEARBUSD, 14.5
+{'symbol': 'NEARBUSD', 'orderId': 455994041, 'orderListId': -1, 'clientOrderId': '58pQYYnOtsl7GaLKfoAn2i', 'transactTime': 1659752336873}
+Completed {'NEARBUSD': 14.5}
+sell SOLBUSD, 2.78
+{'symbol': 'SOLBUSD', 'orderId': 1127197805, 'orderListId': -1, 'clientOrderId': 'kFDTj3l6y56b6jgMSh4JmJ', 'transactTime': 1659752337616}
+Completed {'SOLBUSD': 2.78}
+buy DOTBUSD, 13.85
+{'symbol': 'DOTBUSD', 'orderId': 533465364, 'orderListId': -1, 'clientOrderId': 'BOITpDtWarycCDeZ2ypxVZ', 'transactTime': 1659752338353}
+Completed {'DOTBUSD': 13.84551103}
+buy WAVESBUSD, 19.37
+{'symbol': 'WAVESBUSD', 'orderId': 239409575, 'orderListId': -1, 'clientOrderId': 'ohEfE7V6dXLyKdcy0LSWQ5', 'transactTime': 1659752338683}
+Completed {'WAVESBUSD': 19.36732541}
+buy VETBUSD, 3758.0
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy OPBUSD, 61.8
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:18:21.850 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:18:21.882 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:18:21.933 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:18:27.744 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:18:28.922 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[220952:MainThread](2022-08-05 22:18:28,926) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[220952:MainThread](2022-08-05 22:18:30,930) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[220952:MainThread](2022-08-05 22:18:31,132) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[220952:MainThread](2022-08-05 22:18:31,133) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.19s/it]100%|██████████| 2/2 [00:11<00:00,  5.89s/it]100%|██████████| 2/2 [00:11<00:00,  5.93s/it]
+[220952:MainThread](2022-08-05 22:18:43,010) INFO - qlib.timer - [log.py:113] - Time cost: 11.870s | Loading data Done
+[220952:MainThread](2022-08-05 22:18:43,010) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:18:55,227] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:19:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-08-06 02:19:00 UTC  or 2022-08-05 22:19:00 EST
+[5.709402, -5.409925]
+{'OPBUSD': {'amnt': 4.62994185, 'price': 1.9240000247955322}}
+{'VETBUSD': {'amnt': 275.64880584, 'price': 0.03162999823689461}}
+{'BTCBUSD': {'amnt': 0.10037543, 'price': 23214.779296875}}
+{'ICPBUSD': {'amnt': 1.14129132, 'price': 8.369999885559082}}
+{'symbol': 'ALGOBUSD', 'origClientOrderId': 'Vnu2BfepZxR04Zr13e5NTM', 'orderId': 355031608, 'orderListId': -1, 'clientOrderId': 'QHMZm4kbCDSGdJxKVNooJl', 'price': '0.35260000', 'origQty': '307.00000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'SELL'}
+{'symbol': 'SOLBUSD', 'origClientOrderId': 'kFDTj3l6y56b6jgMSh4JmJ', 'orderId': 1127197805, 'orderListId': -1, 'clientOrderId': '3CcRj7q3jwGsaVlmj1VZun', 'price': '40.41000000', 'origQty': '2.78000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'SELL'}
+sell WAVESBUSD, 5.33
+{'symbol': 'WAVESBUSD', 'orderId': 239410083, 'orderListId': -1, 'clientOrderId': 'DkCoEz9CmiOADAla2cP5Uw', 'transactTime': 1659752389865}
+Completed {'WAVESBUSD': 5.33}
+buy OPBUSD, 4.63
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+buy VETBUSD, 275.6
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+buy BTCBUSD, 0.10038
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy ICPBUSD, 1.14
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:19:14.201 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:19:14.224 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:19:14.272 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:19:20.278 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:19:21.450 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[222280:MainThread](2022-08-05 22:19:21,454) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[222280:MainThread](2022-08-05 22:19:23,459) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[222280:MainThread](2022-08-05 22:19:23,661) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[222280:MainThread](2022-08-05 22:19:23,662) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.13s/it]100%|██████████| 2/2 [00:11<00:00,  5.88s/it]100%|██████████| 2/2 [00:11<00:00,  5.92s/it]
+[222280:MainThread](2022-08-05 22:19:35,506) INFO - qlib.timer - [log.py:113] - Time cost: 11.837s | Loading data Done
+[222280:MainThread](2022-08-05 22:19:35,506) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:19:48,064] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:20:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-08-06 02:20:00 UTC  or 2022-08-05 22:20:00 EST
+[5.709402, -5.409925]
+{'ADABUSD': {'amnt': 52.98414595, 'price': 0.5146999955177307}}
+{'VETBUSD': {'amnt': 860.93080534, 'price': 0.031619999557733536}}
+{'FTMBUSD': {'amnt': 72.66590414, 'price': 0.3750999867916107}}
+{'OPBUSD': {'amnt': 14.25469058, 'price': 1.9229999780654907}}
+sell EOSBUSD, 58.7
+{'symbol': 'EOSBUSD', 'orderId': 603850470, 'orderListId': -1, 'clientOrderId': 'H98iJqEOK2vvfCzzS6yLoD', 'transactTime': 1659752447006}
+Completed {'EOSBUSD': 58.7}
+sell SOLBUSD, 2.78
+{'symbol': 'SOLBUSD', 'orderId': 1127199308, 'orderListId': -1, 'clientOrderId': 'RLFCf85XBKftdpEMZy00MV', 'transactTime': 1659752447742}
+Completed {'SOLBUSD': 2.78}
+sell ALGOBUSD, 307.0
+{'symbol': 'ALGOBUSD', 'orderId': 355031699, 'orderListId': -1, 'clientOrderId': 'OBZxaeTEQ4TFYDan0cb6O0', 'transactTime': 1659752448884}
+Completed {'ALGOBUSD': 307.0}
+buy ADABUSD, 53.0
+{'symbol': 'ADABUSD', 'orderId': 908311541, 'orderListId': -1, 'clientOrderId': 'iIjQARisITUsyUFSWLoOj6', 'transactTime': 1659752449207}
+Completed {'ADABUSD': 52.98414595}
+buy VETBUSD, 860.9
+{'symbol': 'VETBUSD', 'orderId': 433072065, 'orderListId': -1, 'clientOrderId': 'NtO1H2ZDswRhySiy1q5A5t', 'transactTime': 1659752449942}
+Completed {'VETBUSD': 860.93080534}
+buy FTMBUSD, 73.0
+{'symbol': 'FTMBUSD', 'orderId': 509441409, 'orderListId': -1, 'clientOrderId': 'stdmvxKSlLWFSWbP0Svh1m', 'transactTime': 1659752450270}
+Completed {'FTMBUSD': 72.66590414}
+buy OPBUSD, 14.25
+{'symbol': 'OPBUSD', 'orderId': 72825657, 'orderListId': -1, 'clientOrderId': 'N4qWEMJN6zc0BRpvqzqohH', 'transactTime': 1659752451006}
+Completed {'OPBUSD': 14.25469058}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:20:13.572 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:20:13.591 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:20:13.640 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:20:19.541 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:20:20.710 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[219220:MainThread](2022-08-05 22:20:20,714) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[219220:MainThread](2022-08-05 22:20:22,718) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[219220:MainThread](2022-08-05 22:20:22,919) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[219220:MainThread](2022-08-05 22:20:22,919) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.23s/it]100%|██████████| 2/2 [00:11<00:00,  5.87s/it]100%|██████████| 2/2 [00:11<00:00,  5.92s/it]
+[219220:MainThread](2022-08-05 22:20:34,779) INFO - qlib.timer - [log.py:113] - Time cost: 11.851s | Loading data Done
+[219220:MainThread](2022-08-05 22:20:34,779) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:20:46,765] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:21:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:21:00 UTC  or 2022-08-05 22:21:00 EST
+[5.709402, -5.409925]
+{'ICPBUSD': {'amnt': 7.03640441, 'price': 8.359999656677246}}
+{'EOSBUSD': {'amnt': 46.45358622, 'price': 1.2510000467300415}}
+{'VETBUSD': {'amnt': 1832.27503266, 'price': 0.03164999932050705}}
+{'BTCBUSD': {'amnt': 0.10249792, 'price': 23214.5703125}}
+buy ICPBUSD, 7.04
+{'symbol': 'ICPBUSD', 'orderId': 208359266, 'orderListId': -1, 'clientOrderId': 'o6cuyyxMJapAXP4dZotU3p', 'transactTime': 1659752511660}
+Completed {'ICPBUSD': 7.03640441}
+buy EOSBUSD, 46.5
+{'symbol': 'EOSBUSD', 'orderId': 603850559, 'orderListId': -1, 'clientOrderId': '4xxyc6tRGxbN40KV1QCZIn', 'transactTime': 1659752512399}
+Completed {'EOSBUSD': 46.45358622}
+buy VETBUSD, 1832.3
+{'symbol': 'VETBUSD', 'orderId': 433072325, 'orderListId': -1, 'clientOrderId': 'B3Ftft5Ej64z7IzXlhAgMB', 'transactTime': 1659752513136}
+Completed {'VETBUSD': 1832.27503266}
+buy BTCBUSD, 0.1025
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:21:17.597 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:21:17.622 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:21:17.672 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:21:23.473 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:21:24.643 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[222800:MainThread](2022-08-05 22:21:24,647) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[222800:MainThread](2022-08-05 22:21:26,651) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[222800:MainThread](2022-08-05 22:21:26,858) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[222800:MainThread](2022-08-05 22:21:26,858) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.14s/it]100%|██████████| 2/2 [00:11<00:00,  5.90s/it]100%|██████████| 2/2 [00:11<00:00,  5.94s/it]
+[222800:MainThread](2022-08-05 22:21:38,741) INFO - qlib.timer - [log.py:113] - Time cost: 11.876s | Loading data Done
+[222800:MainThread](2022-08-05 22:21:38,741) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:21:51,412] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:22:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:22:00 UTC  or 2022-08-05 22:22:00 EST
+[5.709402, -5.409925]
+{'EOSBUSD': {'amnt': 13.5440666, 'price': 1.2510000467300415}}
+{'ALGOBUSD': {'amnt': 47.77156291, 'price': 0.35280001163482666}}
+{'BTCBUSD': {'amnt': 0.10072436, 'price': 23218.349609375}}
+{'FTMBUSD': {'amnt': 44.88968905, 'price': 0.37549999356269836}}
+{'MATICBUSD': {'amnt': 18.33542046, 'price': 0.9222999811172485}}
+sell OPBUSD, 14.25
+{'symbol': 'OPBUSD', 'orderId': 72827468, 'orderListId': -1, 'clientOrderId': 'BCmhrwfdgHXJoi2Yn7lJKo', 'transactTime': 1659752568279}
+Completed {'OPBUSD': 14.25}
+sell DOTBUSD, 22.42
+{'symbol': 'DOTBUSD', 'orderId': 533466473, 'orderListId': -1, 'clientOrderId': 'GgMo4YBR1abyE1SmlFSEh9', 'transactTime': 1659752568611}
+Completed {'DOTBUSD': 22.42}
+buy EOSBUSD, 13.5
+{'symbol': 'EOSBUSD', 'orderId': 603850635, 'orderListId': -1, 'clientOrderId': 'umbio6RXFxRaMWCE66rkhX', 'transactTime': 1659752568943}
+Completed {'EOSBUSD': 13.5440666}
+buy ALGOBUSD, 48.0
+{'symbol': 'ALGOBUSD', 'orderId': 355031900, 'orderListId': -1, 'clientOrderId': 'EVW5WE1vdYZNPauw6nTuJQ', 'transactTime': 1659752569275}
+Completed {'ALGOBUSD': 47.77156291}
+buy BTCBUSD, 0.10072
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy FTMBUSD, 45.0
+{'symbol': 'FTMBUSD', 'orderId': 509441919, 'orderListId': -1, 'clientOrderId': 'URxcaHKpQnaZlOMGU3uCe6', 'transactTime': 1659752569948}
+Completed {'FTMBUSD': 44.88968905}
+buy MATICBUSD, 18.3
+{'symbol': 'MATICBUSD', 'orderId': 619148963, 'orderListId': -1, 'clientOrderId': 'KaZUH7punWMgTIv4xojMTX', 'transactTime': 1659752570281}
+Completed {'MATICBUSD': 18.33542046}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:22:13.876 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:22:13.899 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:22:13.947 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:22:19.713 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:22:20.880 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[212032:MainThread](2022-08-05 22:22:20,884) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[212032:MainThread](2022-08-05 22:22:22,888) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[212032:MainThread](2022-08-05 22:22:23,091) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[212032:MainThread](2022-08-05 22:22:23,092) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.21s/it]100%|██████████| 2/2 [00:11<00:00,  5.89s/it]100%|██████████| 2/2 [00:11<00:00,  5.94s/it]
+[212032:MainThread](2022-08-05 22:22:34,981) INFO - qlib.timer - [log.py:113] - Time cost: 11.883s | Loading data Done
+[212032:MainThread](2022-08-05 22:22:34,982) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:22:47,366] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:23:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:23:00 UTC  or 2022-08-05 22:23:00 EST
+[5.709402, -5.409925]
+{'ALGOBUSD': {'amnt': 27.43816654, 'price': 0.35280001163482666}}
+{'BTCBUSD': {'amnt': 0.10041528, 'price': 23225.05078125}}
+{'ETHBUSD': {'amnt': 0.10556788, 'price': 1732.239990234375}}
+{'BNBBUSD': {'amnt': 0.13056053, 'price': 315.6000061035156}}
+{'symbol': 'DOTBUSD', 'origClientOrderId': 'GgMo4YBR1abyE1SmlFSEh9', 'orderId': 533466473, 'orderListId': -1, 'clientOrderId': 'Fc5BmTHEKgAuFeZuFH8sIG', 'price': '8.66000000', 'origQty': '22.42000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'SELL'}
+sell MATICBUSD, 18.3
+{'symbol': 'MATICBUSD', 'orderId': 619149524, 'orderListId': -1, 'clientOrderId': 'hGr3HhKxcEJwCJPIiBRz9O', 'transactTime': 1659752634986}
+Completed {'MATICBUSD': 18.3}
+buy ALGOBUSD, 27.0
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+buy BTCBUSD, 0.10042
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy ETHBUSD, 0.1056
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy BNBBUSD, 0.131
+{'symbol': 'BNBBUSD', 'orderId': 1353605022, 'orderListId': -1, 'clientOrderId': 'bZG5zVXFSHrT8x5fbEzfJ4', 'transactTime': 1659752638344}
+Completed {'BNBBUSD': 0.13056053}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:23:20.767 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:23:20.789 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:23:20.837 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:23:26.809 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:23:27.986 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[219984:MainThread](2022-08-05 22:23:27,990) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[219984:MainThread](2022-08-05 22:23:29,994) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[219984:MainThread](2022-08-05 22:23:30,200) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[219984:MainThread](2022-08-05 22:23:30,200) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.14s/it]100%|██████████| 2/2 [00:11<00:00,  5.91s/it]100%|██████████| 2/2 [00:11<00:00,  5.94s/it]
+[219984:MainThread](2022-08-05 22:23:42,095) INFO - qlib.timer - [log.py:113] - Time cost: 11.888s | Loading data Done
+[219984:MainThread](2022-08-05 22:23:42,095) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:23:54,180] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:24:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:24:00 UTC  or 2022-08-05 22:24:00 EST
+[5.709402, -5.409925]
+{'WAXPBUSD': {'amnt': 0.1, 'price': 0.11420000344514847}}
+{'ICPBUSD': {'amnt': 0.1, 'price': 8.380000114440918}}
+{'BNBBUSD': {'amnt': 0.1, 'price': 315.6000061035156}}
+sell WAVESBUSD, 14.02
+{'symbol': 'WAVESBUSD', 'orderId': 239411329, 'orderListId': -1, 'clientOrderId': 'TnkCxOg7uOGFLqfia0Ihh6', 'transactTime': 1659752688334}
+Completed {'WAVESBUSD': 14.02}
+sell ADABUSD, 52.9
+{'symbol': 'ADABUSD', 'orderId': 908312672, 'orderListId': -1, 'clientOrderId': 'vvLJtjRdfa3Ckaqx3a4ay1', 'transactTime': 1659752689062}
+Completed {'ADABUSD': 52.9}
+sell FTMBUSD, 45.0
+{'symbol': 'FTMBUSD', 'orderId': 509442463, 'orderListId': -1, 'clientOrderId': 'Z4cH5in7DJe08karAURUVa', 'transactTime': 1659752690201}
+Completed {'FTMBUSD': 45.0}
+sell VETBUSD, 1828.3
+{'symbol': 'VETBUSD', 'orderId': 433072617, 'orderListId': -1, 'clientOrderId': 'pkadkpRlP17zZtYnDcIh4L', 'transactTime': 1659752690938}
+Completed {'VETBUSD': 1828.3}
+buy WAXPBUSD, 0.0
+APIError(code=-1013): Invalid quantity.
+buy ICPBUSD, 0.1
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+buy BNBBUSD, 0.1
+{'symbol': 'BNBBUSD', 'orderId': 1353605379, 'orderListId': -1, 'clientOrderId': 'lKYPtEs3k7lDN2NprLUH8g', 'transactTime': 1659752691922}
+Completed {'BNBBUSD': 0.1}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:24:14.668 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:24:14.690 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:24:14.737 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:24:20.414 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:24:21.584 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[188832:MainThread](2022-08-05 22:24:21,587) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[188832:MainThread](2022-08-05 22:24:23,591) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[188832:MainThread](2022-08-05 22:24:23,800) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[188832:MainThread](2022-08-05 22:24:23,801) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.10s/it]100%|██████████| 2/2 [00:11<00:00,  5.82s/it]100%|██████████| 2/2 [00:11<00:00,  5.86s/it]
+[188832:MainThread](2022-08-05 22:24:35,526) INFO - qlib.timer - [log.py:113] - Time cost: 11.719s | Loading data Done
+[188832:MainThread](2022-08-05 22:24:35,527) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:24:47,698] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:25:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:25:00 UTC  or 2022-08-05 22:25:00 EST
+[5.709402, -5.409925]
+{'WAXPBUSD': {'amnt': 490.05799859, 'price': 0.11420000344514847}}
+{'ICPBUSD': {'amnt': 6.7769933600000005, 'price': 8.380000114440918}}
+{'ALGOBUSD': {'amnt': 158.51791317, 'price': 0.3531999886035919}}
+{'WAVESBUSD': {'amnt': 9.14513519, 'price': 6.185999870300293}}
+{'BNBBUSD': {'amnt': 0.27723535, 'price': 315.70001220703125}}
+sell ATOMBUSD, 6.85
+{'symbol': 'ATOMBUSD', 'orderId': 401433464, 'orderListId': -1, 'clientOrderId': '1M2nLpin4rMFv84ns3UG9Y', 'transactTime': 1659752751199}
+Completed {'ATOMBUSD': 6.85}
+buy WAXPBUSD, 490.0
+{'symbol': 'WAXPBUSD', 'orderId': 63689651, 'orderListId': -1, 'clientOrderId': 'bgvwabdwQivnhNd6i1Tedy', 'transactTime': 1659752751528}
+Completed {'WAXPBUSD': 490.05799859}
+buy ICPBUSD, 6.78
+{'symbol': 'ICPBUSD', 'orderId': 208359711, 'orderListId': -1, 'clientOrderId': 'VqLBovTX58CCYGZF2mQHSC', 'transactTime': 1659752752261}
+Completed {'ICPBUSD': 6.7769933600000005}
+buy ALGOBUSD, 159.0
+{'symbol': 'ALGOBUSD', 'orderId': 355032131, 'orderListId': -1, 'clientOrderId': 'LExyoc1wpv48IWqKKty0Qv', 'transactTime': 1659752752589}
+Completed {'ALGOBUSD': 158.51791317}
+buy WAVESBUSD, 9.15
+{'symbol': 'WAVESBUSD', 'orderId': 239411838, 'orderListId': -1, 'clientOrderId': 'wVKC93wVnmS6zfHvdxVaHk', 'transactTime': 1659752752921}
+Completed {'WAVESBUSD': 9.14513519}
+buy BNBBUSD, 0.277
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:25:17.072 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:25:17.101 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:25:17.154 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:25:22.933 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:25:24.093 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[216488:MainThread](2022-08-05 22:25:24,096) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[216488:MainThread](2022-08-05 22:25:26,099) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[216488:MainThread](2022-08-05 22:25:26,308) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[216488:MainThread](2022-08-05 22:25:26,308) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.28s/it]100%|██████████| 2/2 [00:11<00:00,  5.91s/it]100%|██████████| 2/2 [00:11<00:00,  5.97s/it]
+[216488:MainThread](2022-08-05 22:25:38,252) INFO - qlib.timer - [log.py:113] - Time cost: 11.938s | Loading data Done
+[216488:MainThread](2022-08-05 22:25:38,253) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:25:50,548] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:26:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:26:00 UTC  or 2022-08-05 22:26:00 EST
+[5.709402, -5.409925]
+{'WAXPBUSD': {'amnt': 233.64461316, 'price': 0.11420000344514847}}
+{'ATOMBUSD': {'amnt': 2.55474424, 'price': 10.864999771118164}}
+{'VETBUSD': {'amnt': 841.1847240000001, 'price': 0.03170999884605408}}
+{'BTCBUSD': {'amnt': 0.10114737, 'price': 23245.0}}
+{'MATICBUSD': {'amnt': 28.99577059, 'price': 0.9229999780654907}}
+sell DOTBUSD, 22.42
+{'symbol': 'DOTBUSD', 'orderId': 533467225, 'orderListId': -1, 'clientOrderId': '3dLOtrdZY7kmSkgbpYXBSa', 'transactTime': 1659752812836}
+Completed {'DOTBUSD': 22.42}
+sell FTMBUSD, 73.0
+{'symbol': 'FTMBUSD', 'orderId': 509443088, 'orderListId': -1, 'clientOrderId': '0naK0VKLhDITZSnY4dJYws', 'transactTime': 1659752813573}
+Completed {'FTMBUSD': 73.0}
+buy WAXPBUSD, 234.0
+{'symbol': 'WAXPBUSD', 'orderId': 63689695, 'orderListId': -1, 'clientOrderId': 'RcB4RNL6WFjULsVFVEGqk2', 'transactTime': 1659752814722}
+Completed {'WAXPBUSD': 233.64461316}
+buy ATOMBUSD, 2.55
+{'symbol': 'ATOMBUSD', 'orderId': 401433742, 'orderListId': -1, 'clientOrderId': 'uzdwY8blWO0hwFUjsKua8X', 'transactTime': 1659752815861}
+Completed {'ATOMBUSD': 2.55474424}
+buy VETBUSD, 841.2
+{'symbol': 'VETBUSD', 'orderId': 433072832, 'orderListId': -1, 'clientOrderId': 'rNA50sCYF9XWKz5yvR2d4p', 'transactTime': 1659752816589}
+Completed {'VETBUSD': 841.1847240000001}
+buy BTCBUSD, 0.10115
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy MATICBUSD, 29.0
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:26:19.425 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:26:19.452 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:26:19.500 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:26:25.367 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:26:26.543 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[221488:MainThread](2022-08-05 22:26:26,546) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[221488:MainThread](2022-08-05 22:26:28,732) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[221488:MainThread](2022-08-05 22:26:28,940) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[221488:MainThread](2022-08-05 22:26:28,941) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.26s/it]100%|██████████| 2/2 [00:11<00:00,  5.86s/it]100%|██████████| 2/2 [00:11<00:00,  5.92s/it]
+[221488:MainThread](2022-08-05 22:26:40,789) INFO - qlib.timer - [log.py:113] - Time cost: 11.842s | Loading data Done
+[221488:MainThread](2022-08-05 22:26:40,789) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:26:52,604] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:27:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:27:00 UTC  or 2022-08-05 22:27:00 EST
+[5.709402, -5.409925]
+{'ADABUSD': {'amnt': 2.67061628, 'price': 0.5156999826431274}}
+{'DOTBUSD': {'amnt': 0.2530793, 'price': 8.65999984741211}}
+{'BTCBUSD': {'amnt': 0.10005705000000001, 'price': 23235.119140625}}
+{'MATICBUSD': {'amnt': 1.53688143, 'price': 0.9225999712944031}}
+{'symbol': 'DOTBUSD', 'origClientOrderId': '3dLOtrdZY7kmSkgbpYXBSa', 'orderId': 533467225, 'orderListId': -1, 'clientOrderId': 'LMFHEKfYnTnlPPMPlXadP2', 'price': '8.67000000', 'origQty': '22.42000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'SELL'}
+buy ADABUSD, 2.7
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+buy DOTBUSD, 0.25
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+buy BTCBUSD, 0.10006
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy MATICBUSD, 1.5
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:27:14.850 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:27:14.869 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:27:14.915 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:27:20.787 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:27:21.944 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[225444:MainThread](2022-08-05 22:27:21,948) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[225444:MainThread](2022-08-05 22:27:23,952) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[225444:MainThread](2022-08-05 22:27:24,151) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[225444:MainThread](2022-08-05 22:27:24,152) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.10s/it]100%|██████████| 2/2 [00:11<00:00,  5.84s/it]100%|██████████| 2/2 [00:11<00:00,  5.88s/it]
+[225444:MainThread](2022-08-05 22:27:35,914) INFO - qlib.timer - [log.py:113] - Time cost: 11.755s | Loading data Done
+[225444:MainThread](2022-08-05 22:27:35,914) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:27:47,555] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:28:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:28:00 UTC  or 2022-08-05 22:28:00 EST
+[5.709402, -5.409925]
+{'ADABUSD': {'amnt': 4.91788804, 'price': 0.5153999924659729}}
+{'OPBUSD': {'amnt': 1.38593447, 'price': 1.930999994277954}}
+{'FTMBUSD': {'amnt': 6.70585118, 'price': 0.375900000333786}}
+sell ALGOBUSD, 207.0
+{'symbol': 'ALGOBUSD', 'orderId': 355032304, 'orderListId': -1, 'clientOrderId': 'GArve5PVx1IC4EqbjRuA4X', 'transactTime': 1659752936462}
+Completed {'ALGOBUSD': 207.0}
+buy ADABUSD, 4.9
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+buy OPBUSD, 1.39
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+buy FTMBUSD, 7.0
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:28:22.363 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:28:22.388 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:28:22.437 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:28:28.331 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:28:29.494 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[225328:MainThread](2022-08-05 22:28:29,498) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[225328:MainThread](2022-08-05 22:28:31,503) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[225328:MainThread](2022-08-05 22:28:31,712) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[225328:MainThread](2022-08-05 22:28:31,712) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.13s/it]100%|██████████| 2/2 [00:11<00:00,  5.84s/it]100%|██████████| 2/2 [00:11<00:00,  5.88s/it]
+[225328:MainThread](2022-08-05 22:28:43,482) INFO - qlib.timer - [log.py:113] - Time cost: 11.764s | Loading data Done
+[225328:MainThread](2022-08-05 22:28:43,483) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:28:56,198] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-08-06 02:29:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=32110): It can only be requested once within 6 hour(s).
+Trading for time: 2022-08-06 02:29:00 UTC  or 2022-08-05 22:29:00 EST
+[5.709402, -5.409925]
+{'BTCBUSD': {'amnt': 0.10019244000000001, 'price': 23226.05078125}}
+{'ETHBUSD': {'amnt': 0.10258062, 'price': 1732.0}}
+{'AVAXBUSD': {'amnt': 0.27821575, 'price': 25.079999923706055}}
+sell EOSBUSD, 60.0
+{'symbol': 'EOSBUSD', 'orderId': 603851322, 'orderListId': -1, 'clientOrderId': 'b1NiksRwAZtCLyJ3LWiECz', 'transactTime': 1659752987426}
+Completed {'EOSBUSD': 60.0}
+sell WAVESBUSD, 9.14
+{'symbol': 'WAVESBUSD', 'orderId': 239412778, 'orderListId': -1, 'clientOrderId': 'joyYNmjEtuK6SwhaSbnNIF', 'transactTime': 1659752987751}
+Completed {'WAVESBUSD': 9.14}
+sell VETBUSD, 1699.6
+{'symbol': 'VETBUSD', 'orderId': 433073163, 'orderListId': -1, 'clientOrderId': 'rFE9HaBmfilvehvemqWxpG', 'transactTime': 1659752988082}
+Completed {'VETBUSD': 1699.6}
+sell BNBBUSD, 0.1
+{'symbol': 'BNBBUSD', 'orderId': 1353608241, 'orderListId': -1, 'clientOrderId': 'lnJOqsjU49NzD4Oq7AYl0E', 'transactTime': 1659752988832}
+Completed {'BNBBUSD': 0.10000375}
+buy BTCBUSD, 0.10019
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy ETHBUSD, 0.1026
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy AVAXBUSD, 0.28
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 22:29:13.721 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 22:29:13.743 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 22:29:13.805 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 22:29:19.618 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 22:29:20.786 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[224604:MainThread](2022-08-05 22:29:20,790) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[224604:MainThread](2022-08-05 22:29:22,794) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[224604:MainThread](2022-08-05 22:29:22,998) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[224604:MainThread](2022-08-05 22:29:22,999) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.13s/it]100%|██████████| 2/2 [00:11<00:00,  5.82s/it]100%|██████████| 2/2 [00:11<00:00,  5.87s/it]
+[224604:MainThread](2022-08-05 22:29:34,740) INFO - qlib.timer - [log.py:113] - Time cost: 11.736s | Loading data Done
+[224604:MainThread](2022-08-05 22:29:34,740) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 22:29:46,782] Using an existing study with name 'backtest' instead of creating a new one.

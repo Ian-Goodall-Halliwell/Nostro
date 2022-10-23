@@ -1,0 +1,2021 @@
+{}
+2022-07-27 04:55:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 04:55:00 UTC  or 2022-07-27 00:55:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 00:55:36.827 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 00:55:37.182 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 00:55:37.261 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 00:55:42.863 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 00:55:43.287 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[26892:MainThread](2022-07-27 00:55:43,292) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[26892:MainThread](2022-07-27 00:55:45,296) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[26892:MainThread](2022-07-27 00:55:45,473) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[26892:MainThread](2022-07-27 00:55:45,473) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[26892:MainThread](2022-07-27 00:56:07,454) INFO - qlib.timer - [log.py:113] - Time cost: 21.975s | Loading data Done
+[26892:MainThread](2022-07-27 00:56:07,454) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 00:56:19,607] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 05:00:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 05:00:00 UTC  or 2022-07-27 01:00:00 EST
+5min
+[43.436599, -69.695322]
+{'PONDBUSD': 18862.73424081}
+buy PONDBUSD, 18862.73
+{'symbol': 'PONDBUSD', 'orderId': 103459074, 'orderListId': -1, 'clientOrderId': 'hjJr8P6oK2qzBDtdOeZj3A', 'transactTime': 1658898076092}
+Completed {'PONDBUSD': 18862.73424081}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 01:00:36.926 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 01:00:37.261 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 01:00:37.340 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 01:00:42.622 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 01:00:43.023 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[17984:MainThread](2022-07-27 01:00:43,028) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[17984:MainThread](2022-07-27 01:00:45,030) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[17984:MainThread](2022-07-27 01:00:45,199) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[17984:MainThread](2022-07-27 01:00:45,199) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[17984:MainThread](2022-07-27 01:01:06,737) INFO - qlib.timer - [log.py:113] - Time cost: 21.533s | Loading data Done
+[17984:MainThread](2022-07-27 01:01:06,737) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 01:01:15,287] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 05:05:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 05:05:00 UTC  or 2022-07-27 01:05:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 01:05:36.582 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 01:05:36.993 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 01:05:37.075 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 01:05:42.451 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 01:05:42.885 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[30420:MainThread](2022-07-27 01:05:42,890) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[30420:MainThread](2022-07-27 01:05:44,894) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[30420:MainThread](2022-07-27 01:05:45,064) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[30420:MainThread](2022-07-27 01:05:45,064) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[30420:MainThread](2022-07-27 01:06:07,327) INFO - qlib.timer - [log.py:113] - Time cost: 22.258s | Loading data Done
+[30420:MainThread](2022-07-27 01:06:07,327) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 01:06:20,953] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 05:10:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 05:10:00 UTC  or 2022-07-27 01:10:00 EST
+5min
+[43.436599, -69.695322]
+{'CREAMBUSD': 18.58192738}
+buy CREAMBUSD, 18.582
+{'symbol': 'CREAMBUSD', 'orderId': 71201439, 'orderListId': -1, 'clientOrderId': 'ojL7l5AriBnW6sxR8GNZEo', 'transactTime': 1658898683214}
+Completed {'CREAMBUSD': 18.58192738}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 01:10:35.500 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 01:10:35.874 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 01:10:35.960 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 01:10:41.849 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 01:10:42.301 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[31660:MainThread](2022-07-27 01:10:42,306) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[31660:MainThread](2022-07-27 01:10:44,308) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[31660:MainThread](2022-07-27 01:10:44,495) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[31660:MainThread](2022-07-27 01:10:44,495) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[31660:MainThread](2022-07-27 01:11:08,751) INFO - qlib.timer - [log.py:113] - Time cost: 24.251s | Loading data Done
+[31660:MainThread](2022-07-27 01:11:08,752) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 01:11:22,702] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 05:15:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'CREAMBUSD', 'origClientOrderId': 'ojL7l5AriBnW6sxR8GNZEo', 'orderId': 71201439, 'orderListId': -1, 'clientOrderId': 'dIPqj2AqAeCZx2eprFCLiH', 'price': '14.80000000', 'origQty': '18.58200000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 05:15:00 UTC  or 2022-07-27 01:15:00 EST
+5min
+[43.436599, -69.695322]
+{'CREAMBUSD': 18.58192738}
+{'RADBUSD': 69.57377511}
+buy CREAMBUSD, 18.582
+{'symbol': 'CREAMBUSD', 'orderId': 71201467, 'orderListId': -1, 'clientOrderId': 'bF5kwUhlN1Fzaw30UC91HG', 'transactTime': 1658898988457}
+Completed {'CREAMBUSD': 18.58192738}
+buy RADBUSD, 69.6
+{'symbol': 'RADBUSD', 'orderId': 35379638, 'orderListId': -1, 'clientOrderId': 'hEY6YEL4BUSdl6uwblLRF7', 'transactTime': 1658898990608}
+Completed {'RADBUSD': 69.57377511}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 01:15:40.033 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 01:15:40.387 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 01:15:40.474 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 01:15:46.220 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 01:15:46.679 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[19028:MainThread](2022-07-27 01:15:46,684) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[19028:MainThread](2022-07-27 01:15:48,690) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[19028:MainThread](2022-07-27 01:15:48,870) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[19028:MainThread](2022-07-27 01:15:48,871) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[19028:MainThread](2022-07-27 01:16:12,412) INFO - qlib.timer - [log.py:113] - Time cost: 23.535s | Loading data Done
+[19028:MainThread](2022-07-27 01:16:12,412) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 01:16:27,547] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 05:20:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'CREAMBUSD', 'origClientOrderId': 'bF5kwUhlN1Fzaw30UC91HG', 'orderId': 71201467, 'orderListId': -1, 'clientOrderId': 'G5DMHjnwqx0YuiNDNK7Qoq', 'price': '14.80000000', 'origQty': '18.58200000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 05:20:00 UTC  or 2022-07-27 01:20:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 01:20:35.035 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 01:20:35.412 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 01:20:35.498 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 01:20:41.354 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 01:20:41.807 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[24028:MainThread](2022-07-27 01:20:41,812) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[24028:MainThread](2022-07-27 01:20:43,817) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[24028:MainThread](2022-07-27 01:20:43,999) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[24028:MainThread](2022-07-27 01:20:43,999) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[24028:MainThread](2022-07-27 01:21:08,279) INFO - qlib.timer - [log.py:113] - Time cost: 24.275s | Loading data Done
+[24028:MainThread](2022-07-27 01:21:08,280) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 01:21:22,056] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 05:25:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 05:25:00 UTC  or 2022-07-27 01:25:00 EST
+5min
+[43.436599, -69.695322]
+{'BURGERBUSD': 163.26215293}
+{'HIVEBUSD': 539.18773709}
+buy BURGERBUSD, 163.3
+{'symbol': 'BURGERBUSD', 'orderId': 67052638, 'orderListId': -1, 'clientOrderId': 'fK5FnFhVg2UH0lrmOHEEGL', 'transactTime': 1658899583980}
+Completed {'BURGERBUSD': 163.26215293}
+buy HIVEBUSD, 539.0
+{'symbol': 'HIVEBUSD', 'orderId': 43582509, 'orderListId': -1, 'clientOrderId': 'TH5EndGeyKA0JU3Jm2qzrY', 'transactTime': 1658899585314}
+Completed {'HIVEBUSD': 539.18773709}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 01:25:37.002 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 01:25:37.413 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 01:25:37.498 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 01:25:43.431 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 01:25:43.896 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[25296:MainThread](2022-07-27 01:25:43,901) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[25296:MainThread](2022-07-27 01:25:45,905) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[25296:MainThread](2022-07-27 01:25:46,085) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[25296:MainThread](2022-07-27 01:25:46,086) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[25296:MainThread](2022-07-27 01:26:10,287) INFO - qlib.timer - [log.py:113] - Time cost: 24.196s | Loading data Done
+[25296:MainThread](2022-07-27 01:26:10,287) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 01:26:23,598] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 05:30:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 05:30:00 UTC  or 2022-07-27 01:30:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 01:30:35.452 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 01:30:35.822 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 01:30:35.910 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 01:30:41.731 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 01:30:42.183 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[27148:MainThread](2022-07-27 01:30:42,188) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[27148:MainThread](2022-07-27 01:30:44,193) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[27148:MainThread](2022-07-27 01:30:44,370) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[27148:MainThread](2022-07-27 01:30:44,371) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[27148:MainThread](2022-07-27 01:31:08,255) INFO - qlib.timer - [log.py:113] - Time cost: 23.879s | Loading data Done
+[27148:MainThread](2022-07-27 01:31:08,256) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 01:31:22,003] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 05:35:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 05:35:00 UTC  or 2022-07-27 01:35:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 01:35:35.187 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 01:35:35.592 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 01:35:35.680 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 01:35:41.556 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 01:35:42.010 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[5908:MainThread](2022-07-27 01:35:42,015) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[5908:MainThread](2022-07-27 01:35:44,019) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[5908:MainThread](2022-07-27 01:35:44,200) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[5908:MainThread](2022-07-27 01:35:44,200) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[5908:MainThread](2022-07-27 01:36:08,181) INFO - qlib.timer - [log.py:113] - Time cost: 23.977s | Loading data Done
+[5908:MainThread](2022-07-27 01:36:08,182) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 01:36:22,707] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 05:40:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 05:40:00 UTC  or 2022-07-27 01:40:00 EST
+5min
+[43.436599, -69.695322]
+{'PSGBUSD': 35.92993431}
+{'BARBUSD': 60.40305852}
+{'MBLBUSD': 58730.034207460005}
+{'CITYBUSD': 54.56727848}
+buy PSGBUSD, 35.93
+{'symbol': 'PSGBUSD', 'orderId': 101903993, 'orderListId': -1, 'clientOrderId': 'WwY0I4SKjhECqs4eGQ9QB0', 'transactTime': 1658900482307}
+Completed {'PSGBUSD': 35.92993431}
+buy BARBUSD, 60.4
+{'symbol': 'BARBUSD', 'orderId': 23636814, 'orderListId': -1, 'clientOrderId': 'QLpuAmzhV79MPUHPgVNgml', 'transactTime': 1658900484044}
+Completed {'BARBUSD': 60.40305852}
+buy MBLBUSD, 58730.0
+{'symbol': 'MBLBUSD', 'orderId': 16486132, 'orderListId': -1, 'clientOrderId': 'annZacqjD26bWUQsYIyjSl', 'transactTime': 1658900486192}
+Completed {'MBLBUSD': 58730.034207460005}
+buy CITYBUSD, 54.57
+{'symbol': 'CITYBUSD', 'orderId': 9962309, 'orderListId': -1, 'clientOrderId': 'gc4kbWPtXyQA8QJiRdxe5b', 'transactTime': 1658900487517}
+Completed {'CITYBUSD': 54.56727848}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 01:40:34.963 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 01:40:35.375 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 01:40:35.458 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 01:40:41.252 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 01:40:41.694 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[28936:MainThread](2022-07-27 01:40:41,699) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[28936:MainThread](2022-07-27 01:40:43,702) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[28936:MainThread](2022-07-27 01:40:43,879) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[28936:MainThread](2022-07-27 01:40:43,880) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[28936:MainThread](2022-07-27 01:41:08,040) INFO - qlib.timer - [log.py:113] - Time cost: 24.155s | Loading data Done
+[28936:MainThread](2022-07-27 01:41:08,041) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 01:41:21,419] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 05:45:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 05:45:00 UTC  or 2022-07-27 01:45:00 EST
+5min
+[43.436599, -69.695322]
+sell PONDBUSD, 18770.46
+{'symbol': 'PONDBUSD', 'orderId': 103470168, 'orderListId': -1, 'clientOrderId': 'SCJojNX7DFNRxyVQfwBhVv', 'transactTime': 1658900789269}
+Completed {'PONDBUSD': 18770.46}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 01:45:40.638 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 01:45:41.053 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 01:45:41.137 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 01:45:46.942 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 01:45:47.396 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[27372:MainThread](2022-07-27 01:45:47,401) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[27372:MainThread](2022-07-27 01:45:49,406) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[27372:MainThread](2022-07-27 01:45:49,584) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[27372:MainThread](2022-07-27 01:45:49,584) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[27372:MainThread](2022-07-27 01:46:14,170) INFO - qlib.timer - [log.py:113] - Time cost: 24.580s | Loading data Done
+[27372:MainThread](2022-07-27 01:46:14,171) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 01:46:28,802] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 05:50:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 05:50:00 UTC  or 2022-07-27 01:50:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 01:50:36.111 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 01:50:36.466 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 01:50:36.549 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 01:50:42.372 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 01:50:42.800 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[27732:MainThread](2022-07-27 01:50:42,805) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[27732:MainThread](2022-07-27 01:50:44,808) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[27732:MainThread](2022-07-27 01:50:44,989) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[27732:MainThread](2022-07-27 01:50:44,990) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[27732:MainThread](2022-07-27 01:51:09,316) INFO - qlib.timer - [log.py:113] - Time cost: 24.321s | Loading data Done
+[27732:MainThread](2022-07-27 01:51:09,316) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 01:51:24,085] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 05:55:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 05:55:00 UTC  or 2022-07-27 01:55:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 01:55:37.061 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 01:55:37.477 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 01:55:37.565 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 01:55:43.541 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 01:55:44.004 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[32660:MainThread](2022-07-27 01:55:44,009) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[32660:MainThread](2022-07-27 01:55:46,013) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[32660:MainThread](2022-07-27 01:55:46,201) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[32660:MainThread](2022-07-27 01:55:46,201) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[32660:MainThread](2022-07-27 01:56:10,896) INFO - qlib.timer - [log.py:113] - Time cost: 24.690s | Loading data Done
+[32660:MainThread](2022-07-27 01:56:10,896) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 01:56:26,333] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 06:00:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 06:00:00 UTC  or 2022-07-27 02:00:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 02:00:39.812 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 02:00:40.248 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 02:00:40.332 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 02:00:46.327 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 02:00:46.791 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[588:MainThread](2022-07-27 02:00:46,796) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[588:MainThread](2022-07-27 02:00:48,799) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[588:MainThread](2022-07-27 02:00:48,980) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[588:MainThread](2022-07-27 02:00:48,981) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[588:MainThread](2022-07-27 02:01:13,960) INFO - qlib.timer - [log.py:113] - Time cost: 24.973s | Loading data Done
+[588:MainThread](2022-07-27 02:01:13,960) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 02:01:28,867] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 06:05:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 06:05:00 UTC  or 2022-07-27 02:05:00 EST
+5min
+[43.436599, -69.695322]
+{'OGBUSD': 72.43618532}
+buy OGBUSD, 72.4
+{'symbol': 'OGBUSD', 'orderId': 7441262, 'orderListId': -1, 'clientOrderId': '4qgj1hqtNGS6BACAu7Ddjo', 'transactTime': 1658901983720}
+Completed {'OGBUSD': 72.43618532}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 02:05:34.865 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 02:05:35.242 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 02:05:35.334 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 02:05:41.284 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 02:05:41.740 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[25464:MainThread](2022-07-27 02:05:41,745) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[25464:MainThread](2022-07-27 02:05:43,749) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[25464:MainThread](2022-07-27 02:05:43,929) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[25464:MainThread](2022-07-27 02:05:43,930) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[25464:MainThread](2022-07-27 02:06:08,014) INFO - qlib.timer - [log.py:113] - Time cost: 24.079s | Loading data Done
+[25464:MainThread](2022-07-27 02:06:08,014) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 02:06:23,381] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 06:10:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 06:10:00 UTC  or 2022-07-27 02:10:00 EST
+5min
+[43.436599, -69.695322]
+sell PSGBUSD, 35.59
+{'symbol': 'PSGBUSD', 'orderId': 101908327, 'orderListId': -1, 'clientOrderId': 'CwcePMdYG3eVQI07Vzg3EZ', 'transactTime': 1658902286208}
+Completed {'PSGBUSD': 35.59}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 02:10:37.197 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 02:10:37.605 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 02:10:37.691 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 02:10:43.652 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 02:10:44.147 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[32052:MainThread](2022-07-27 02:10:44,153) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[32052:MainThread](2022-07-27 02:10:46,156) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[32052:MainThread](2022-07-27 02:10:46,336) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[32052:MainThread](2022-07-27 02:10:46,336) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[32052:MainThread](2022-07-27 02:11:10,645) INFO - qlib.timer - [log.py:113] - Time cost: 24.304s | Loading data Done
+[32052:MainThread](2022-07-27 02:11:10,645) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 02:11:25,879] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 06:15:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 06:15:00 UTC  or 2022-07-27 02:15:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 02:15:37.069 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 02:15:37.478 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 02:15:37.565 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 02:15:43.430 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 02:15:43.879 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[32864:MainThread](2022-07-27 02:15:43,885) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[32864:MainThread](2022-07-27 02:15:45,888) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[32864:MainThread](2022-07-27 02:15:46,069) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[32864:MainThread](2022-07-27 02:15:46,070) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[32864:MainThread](2022-07-27 02:16:09,513) INFO - qlib.timer - [log.py:113] - Time cost: 23.438s | Loading data Done
+[32864:MainThread](2022-07-27 02:16:09,514) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 02:16:23,959] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 06:20:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 06:20:00 UTC  or 2022-07-27 02:20:00 EST
+5min
+[43.436599, -69.695322]
+{'AGLDBUSD': 632.2396042}
+{'BNTBUSD': 561.71164421}
+buy AGLDBUSD, 632.2
+{'symbol': 'AGLDBUSD', 'orderId': 42031494, 'orderListId': -1, 'clientOrderId': 'LJKP7vpmwAhMA7XdzJTEWG', 'transactTime': 1658902884655}
+Completed {'AGLDBUSD': 632.2396042}
+buy BNTBUSD, 561.7
+{'symbol': 'BNTBUSD', 'orderId': 56102512, 'orderListId': -1, 'clientOrderId': 'ZAlCzrX248RZiBzoce2Pmu', 'transactTime': 1658902885976}
+Completed {'BNTBUSD': 561.71164421}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 02:20:35.770 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 02:20:36.209 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 02:20:36.300 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 02:20:42.260 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 02:20:42.716 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[24540:MainThread](2022-07-27 02:20:42,722) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[24540:MainThread](2022-07-27 02:20:44,724) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[24540:MainThread](2022-07-27 02:20:44,906) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[24540:MainThread](2022-07-27 02:20:44,907) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[24540:MainThread](2022-07-27 02:21:08,329) INFO - qlib.timer - [log.py:113] - Time cost: 23.416s | Loading data Done
+[24540:MainThread](2022-07-27 02:21:08,329) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 02:21:24,082] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 06:25:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'AGLDBUSD', 'origClientOrderId': 'LJKP7vpmwAhMA7XdzJTEWG', 'orderId': 42031494, 'orderListId': -1, 'clientOrderId': 'vyd5eJEIDH9fZMdf4yW3HY', 'price': '0.43100000', 'origQty': '632.20000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 06:25:00 UTC  or 2022-07-27 02:25:00 EST
+5min
+[43.436599, -69.695322]
+{'BADGERBUSD': 65.12599649}
+sell BURGERBUSD, 161.1
+{'symbol': 'BURGERBUSD', 'orderId': 67067517, 'orderListId': -1, 'clientOrderId': 'AxUcNSIFv3PDHB29kBtEuV', 'transactTime': 1658903185374}
+Completed {'BURGERBUSD': 161.1}
+sell HIVEBUSD, 539.0
+{'symbol': 'HIVEBUSD', 'orderId': 43593588, 'orderListId': -1, 'clientOrderId': 'UuecodrIH0bdWKJYXk4jOY', 'transactTime': 1658903187525}
+Completed {'HIVEBUSD': 539.0}
+buy BADGERBUSD, 65.13
+{'symbol': 'BADGERBUSD', 'orderId': 56954815, 'orderListId': -1, 'clientOrderId': 'FlsSiQZ19FgVSSdIA1AdbI', 'transactTime': 1658903188851}
+Completed {'BADGERBUSD': 65.12599649}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 02:25:35.931 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 02:25:36.362 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 02:25:36.453 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 02:25:42.465 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 02:25:42.929 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[33092:MainThread](2022-07-27 02:25:42,934) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[33092:MainThread](2022-07-27 02:25:44,940) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[33092:MainThread](2022-07-27 02:25:45,121) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[33092:MainThread](2022-07-27 02:25:45,121) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[33092:MainThread](2022-07-27 02:26:09,422) INFO - qlib.timer - [log.py:113] - Time cost: 24.292s | Loading data Done
+[33092:MainThread](2022-07-27 02:26:09,423) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 02:26:25,043] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 06:30:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 06:30:00 UTC  or 2022-07-27 02:30:00 EST
+5min
+[43.436599, -69.695322]
+{'ORNBUSD': 203.30238265}
+buy ORNBUSD, 203.3
+{'symbol': 'ORNBUSD', 'orderId': 43053698, 'orderListId': -1, 'clientOrderId': 'pwCSgjRtFo5lmVL5lSR67v', 'transactTime': 1658903485891}
+Completed {'ORNBUSD': 203.30238265}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 02:30:36.574 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 02:30:36.934 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 02:30:37.018 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 02:30:43.076 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 02:30:43.545 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[2396:MainThread](2022-07-27 02:30:43,550) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[2396:MainThread](2022-07-27 02:30:45,553) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[2396:MainThread](2022-07-27 02:30:45,731) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[2396:MainThread](2022-07-27 02:30:45,731) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[2396:MainThread](2022-07-27 02:31:10,504) INFO - qlib.timer - [log.py:113] - Time cost: 24.768s | Loading data Done
+[2396:MainThread](2022-07-27 02:31:10,504) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 02:31:25,455] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 06:35:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 06:35:00 UTC  or 2022-07-27 02:35:00 EST
+5min
+[43.436599, -69.695322]
+{'HIGHBUSD': 179.32846708}
+buy HIGHBUSD, 179.328
+{'symbol': 'HIGHBUSD', 'orderId': 15857047, 'orderListId': -1, 'clientOrderId': 'ye9prxnmlnXsVEtxhY6czz', 'transactTime': 1658903786326}
+Completed {'HIGHBUSD': 179.32846708}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 02:35:37.846 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 02:35:38.261 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 02:35:38.347 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 02:35:44.320 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 02:35:44.768 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[32148:MainThread](2022-07-27 02:35:44,773) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[32148:MainThread](2022-07-27 02:35:46,776) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[32148:MainThread](2022-07-27 02:35:46,955) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[32148:MainThread](2022-07-27 02:35:46,955) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[32148:MainThread](2022-07-27 02:36:11,161) INFO - qlib.timer - [log.py:113] - Time cost: 24.199s | Loading data Done
+[32148:MainThread](2022-07-27 02:36:11,161) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 02:36:25,900] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 06:40:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'HIGHBUSD', 'origClientOrderId': 'ye9prxnmlnXsVEtxhY6czz', 'orderId': 15857047, 'orderListId': -1, 'clientOrderId': 'b1qeAA2CTTQDfH5K8sjxf3', 'price': '1.51000000', 'origQty': '179.32800000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 06:40:00 UTC  or 2022-07-27 02:40:00 EST
+5min
+[43.436599, -69.695322]
+sell RADBUSD, 69.6
+{'symbol': 'RADBUSD', 'orderId': 35603329, 'orderListId': -1, 'clientOrderId': 'fURZ72xMGnt916qqBWg80n', 'transactTime': 1658904092034}
+Completed {'RADBUSD': 69.6}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 02:40:40.713 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 02:40:41.071 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 02:40:41.157 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 02:40:47.176 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 02:40:47.615 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[30696:MainThread](2022-07-27 02:40:47,620) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[30696:MainThread](2022-07-27 02:40:49,626) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[30696:MainThread](2022-07-27 02:40:49,813) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[30696:MainThread](2022-07-27 02:40:49,813) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[30696:MainThread](2022-07-27 02:41:13,984) INFO - qlib.timer - [log.py:113] - Time cost: 24.165s | Loading data Done
+[30696:MainThread](2022-07-27 02:41:13,984) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 02:41:30,212] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 06:45:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 06:45:00 UTC  or 2022-07-27 02:45:00 EST
+5min
+[43.436599, -69.695322]
+{'QUICKBUSD': 3.63389979}
+sell BARBUSD, 60.32
+{'symbol': 'BARBUSD', 'orderId': 23639181, 'orderListId': -1, 'clientOrderId': 'JzzjLTjf1Tz4CPUOyAo2Uu', 'transactTime': 1658904382104}
+Completed {'BARBUSD': 60.32}
+buy QUICKBUSD, 3.634
+{'symbol': 'QUICKBUSD', 'orderId': 34268771, 'orderListId': -1, 'clientOrderId': 'taizLT0lA91RWeyBcVDPWz', 'transactTime': 1658904383901}
+Completed {'QUICKBUSD': 3.63389979}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 02:45:35.965 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 02:45:36.373 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 02:45:36.457 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 02:45:42.101 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 02:45:42.559 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[8608:MainThread](2022-07-27 02:45:42,564) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[8608:MainThread](2022-07-27 02:45:44,568) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[8608:MainThread](2022-07-27 02:45:44,746) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[8608:MainThread](2022-07-27 02:45:44,746) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[8608:MainThread](2022-07-27 02:46:07,928) INFO - qlib.timer - [log.py:113] - Time cost: 23.177s | Loading data Done
+[8608:MainThread](2022-07-27 02:46:07,929) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 02:46:21,749] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 06:50:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 06:50:00 UTC  or 2022-07-27 02:50:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 02:50:39.171 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 02:50:39.588 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 02:50:39.675 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 02:50:45.533 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 02:50:46.004 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[8672:MainThread](2022-07-27 02:50:46,009) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[8672:MainThread](2022-07-27 02:50:48,011) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[8672:MainThread](2022-07-27 02:50:48,195) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[8672:MainThread](2022-07-27 02:50:48,196) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[8672:MainThread](2022-07-27 02:51:12,417) INFO - qlib.timer - [log.py:113] - Time cost: 24.214s | Loading data Done
+[8672:MainThread](2022-07-27 02:51:12,417) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 02:51:28,219] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 06:55:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 06:55:00 UTC  or 2022-07-27 02:55:00 EST
+5min
+[43.436599, -69.695322]
+sell OGBUSD, 72.4
+{'symbol': 'OGBUSD', 'orderId': 7445068, 'orderListId': -1, 'clientOrderId': 'jOIkmeOvru44AJk6623UQZ', 'transactTime': 1658904994409}
+Completed {'OGBUSD': 72.4}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 02:55:39.968 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 02:55:40.416 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 02:55:40.505 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 02:55:46.577 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 02:55:47.065 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[31220:MainThread](2022-07-27 02:55:47,070) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[31220:MainThread](2022-07-27 02:55:49,074) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[31220:MainThread](2022-07-27 02:55:49,265) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[31220:MainThread](2022-07-27 02:55:49,265) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[31220:MainThread](2022-07-27 02:56:16,684) INFO - qlib.timer - [log.py:113] - Time cost: 27.413s | Loading data Done
+[31220:MainThread](2022-07-27 02:56:16,684) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 02:56:33,803] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 07:00:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 07:00:00 UTC  or 2022-07-27 03:00:00 EST
+5min
+[43.436599, -69.695322]
+{'DREPBUSD': 529.9223609000001}
+{'FLOWBUSD': 173.86149026}
+buy DREPBUSD, 530.0
+{'symbol': 'DREPBUSD', 'orderId': 5252350, 'orderListId': -1, 'clientOrderId': 'x2SdjD6t7sdL7WpjwEBarY', 'transactTime': 1658905294398}
+Completed {'DREPBUSD': 529.9223609000001}
+buy FLOWBUSD, 173.86
+{'symbol': 'FLOWBUSD', 'orderId': 45206255, 'orderListId': -1, 'clientOrderId': 'DIMqvsUHYkIQ41B1VeC5Vs', 'transactTime': 1658905295750}
+Completed {'FLOWBUSD': 173.86149026}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 03:00:36.798 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 03:00:37.292 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 03:00:37.387 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 03:00:43.844 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 03:00:44.410 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[28164:MainThread](2022-07-27 03:00:44,415) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[28164:MainThread](2022-07-27 03:00:46,419) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[28164:MainThread](2022-07-27 03:00:46,620) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[28164:MainThread](2022-07-27 03:00:46,621) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[28164:MainThread](2022-07-27 03:01:16,633) INFO - qlib.timer - [log.py:113] - Time cost: 30.007s | Loading data Done
+[28164:MainThread](2022-07-27 03:01:16,633) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 03:01:34,063] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 07:05:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'DREPBUSD', 'origClientOrderId': '6Gi4c8XPDHo8tDS6XcUKhI', 'orderId': 5252482, 'orderListId': -1, 'clientOrderId': 'aXTlksEdHVZ9nvQRxUUVPr', 'price': '0.52110000', 'origQty': '527.00000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 07:05:00 UTC  or 2022-07-27 03:05:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 03:05:44.210 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 03:05:44.623 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 03:05:44.718 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 03:05:51.126 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 03:05:51.665 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[23132:MainThread](2022-07-27 03:05:51,672) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[23132:MainThread](2022-07-27 03:05:53,675) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[23132:MainThread](2022-07-27 03:05:53,868) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[23132:MainThread](2022-07-27 03:05:53,869) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[23132:MainThread](2022-07-27 03:06:22,332) INFO - qlib.timer - [log.py:113] - Time cost: 28.457s | Loading data Done
+[23132:MainThread](2022-07-27 03:06:22,332) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 03:06:39,592] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 07:10:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 07:10:00 UTC  or 2022-07-27 03:10:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 03:10:37.578 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 03:10:38.051 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 03:10:38.147 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 03:10:44.732 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 03:10:45.260 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[29072:MainThread](2022-07-27 03:10:45,265) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[29072:MainThread](2022-07-27 03:10:47,269) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[29072:MainThread](2022-07-27 03:10:47,473) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[29072:MainThread](2022-07-27 03:10:47,474) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[29072:MainThread](2022-07-27 03:11:18,660) INFO - qlib.timer - [log.py:113] - Time cost: 31.181s | Loading data Done
+[29072:MainThread](2022-07-27 03:11:18,660) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 03:11:35,533] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 07:15:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 07:15:00 UTC  or 2022-07-27 03:15:00 EST
+5min
+[43.436599, -69.695322]
+{'ELFBUSD': 1741.07765663}
+buy ELFBUSD, 1741.1
+{'symbol': 'ELFBUSD', 'orderId': 35250879, 'orderListId': -1, 'clientOrderId': 'MM7NHBov3zmOquiv8lsaJA', 'transactTime': 1658906195673}
+Completed {'ELFBUSD': 1741.07765663}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 03:15:37.359 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 03:15:37.779 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 03:15:37.875 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 03:15:44.545 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 03:15:45.078 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[34884:MainThread](2022-07-27 03:15:45,084) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[34884:MainThread](2022-07-27 03:15:47,089) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[34884:MainThread](2022-07-27 03:15:47,293) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[34884:MainThread](2022-07-27 03:15:47,293) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[34884:MainThread](2022-07-27 03:16:17,466) INFO - qlib.timer - [log.py:113] - Time cost: 30.167s | Loading data Done
+[34884:MainThread](2022-07-27 03:16:17,467) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 03:16:35,087] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 07:20:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 07:20:00 UTC  or 2022-07-27 03:20:00 EST
+5min
+[43.436599, -69.695322]
+sell QUICKBUSD, 3.634
+{'symbol': 'QUICKBUSD', 'orderId': 34271391, 'orderListId': -1, 'clientOrderId': 'fS3Y6czFtusuEFsrkNU9SJ', 'transactTime': 1658906486973}
+Completed {'QUICKBUSD': 3.634}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 03:20:37.500 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 03:20:37.868 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 03:20:37.954 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 03:20:43.839 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 03:20:44.308 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[20680:MainThread](2022-07-27 03:20:44,313) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[20680:MainThread](2022-07-27 03:20:46,315) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[20680:MainThread](2022-07-27 03:20:46,501) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[20680:MainThread](2022-07-27 03:20:46,501) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[20680:MainThread](2022-07-27 03:21:11,704) INFO - qlib.timer - [log.py:113] - Time cost: 25.198s | Loading data Done
+[20680:MainThread](2022-07-27 03:21:11,704) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 03:21:26,666] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 07:25:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 07:25:00 UTC  or 2022-07-27 03:25:00 EST
+5min
+[43.436599, -69.695322]
+{'MLNBUSD': 11.13534657}
+sell FLOWBUSD, 172.77
+{'symbol': 'FLOWBUSD', 'orderId': 45208568, 'orderListId': -1, 'clientOrderId': 'ivbBvXwyt74pgtTfiecOOB', 'transactTime': 1658906796665}
+Completed {'FLOWBUSD': 172.77}
+buy MLNBUSD, 11.135
+{'symbol': 'MLNBUSD', 'orderId': 24208508, 'orderListId': -1, 'clientOrderId': 'Qj92hIbuwrNz6nDviaYIKv', 'transactTime': 1658906798014}
+Completed {'MLNBUSD': 11.13534657}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 03:25:39.094 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 03:25:39.517 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 03:25:39.612 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 03:25:46.022 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 03:25:46.568 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[2196:MainThread](2022-07-27 03:25:46,574) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[2196:MainThread](2022-07-27 03:25:48,577) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[2196:MainThread](2022-07-27 03:25:48,772) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[2196:MainThread](2022-07-27 03:25:48,772) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[2196:MainThread](2022-07-27 03:26:18,011) INFO - qlib.timer - [log.py:113] - Time cost: 29.233s | Loading data Done
+[2196:MainThread](2022-07-27 03:26:18,011) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 03:26:36,089] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 07:30:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'MLNBUSD', 'origClientOrderId': 'Qj92hIbuwrNz6nDviaYIKv', 'orderId': 24208508, 'orderListId': -1, 'clientOrderId': 'oM3MdZ51H2pPbpxcUSO6cO', 'price': '25.00000000', 'origQty': '11.13500000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+{'symbol': 'FLOWBUSD', 'origClientOrderId': 'ivbBvXwyt74pgtTfiecOOB', 'orderId': 45208568, 'orderListId': -1, 'clientOrderId': 'SPia5TZF7Q1lUi7RVCxoAb', 'price': '1.62000000', 'origQty': '172.77000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'SELL'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 07:30:00 UTC  or 2022-07-27 03:30:00 EST
+5min
+[43.436599, -69.695322]
+sell FLOWBUSD, 172.77
+{'symbol': 'FLOWBUSD', 'orderId': 45208812, 'orderListId': -1, 'clientOrderId': 'sgnJT6qsi5XmFdC3bt8IKc', 'transactTime': 1658907093691}
+Completed {'FLOWBUSD': 172.77}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 03:30:36.594 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 03:30:36.995 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 03:30:37.088 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 03:30:43.546 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 03:30:44.079 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[35216:MainThread](2022-07-27 03:30:44,084) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[35216:MainThread](2022-07-27 03:30:46,088) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[35216:MainThread](2022-07-27 03:30:46,295) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[35216:MainThread](2022-07-27 03:30:46,296) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[35216:MainThread](2022-07-27 03:31:15,101) INFO - qlib.timer - [log.py:113] - Time cost: 28.800s | Loading data Done
+[35216:MainThread](2022-07-27 03:31:15,102) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 03:31:33,395] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 07:35:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'FLOWBUSD', 'origClientOrderId': 'sgnJT6qsi5XmFdC3bt8IKc', 'orderId': 45208812, 'orderListId': -1, 'clientOrderId': 'peZD2G4oumpwP7qhn4lrjk', 'price': '1.62000000', 'origQty': '172.77000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'SELL'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 07:35:00 UTC  or 2022-07-27 03:35:00 EST
+5min
+[43.436599, -69.695322]
+sell FLOWBUSD, 172.77
+{'symbol': 'FLOWBUSD', 'orderId': 45209152, 'orderListId': -1, 'clientOrderId': 'rjIJlOYwskRApIkfVglfIM', 'transactTime': 1658907399343}
+Completed {'FLOWBUSD': 172.77}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 03:35:40.692 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 03:35:41.116 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 03:35:41.212 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 03:35:47.837 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 03:35:48.376 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[9448:MainThread](2022-07-27 03:35:48,381) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[9448:MainThread](2022-07-27 03:35:50,385) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[9448:MainThread](2022-07-27 03:35:50,586) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[9448:MainThread](2022-07-27 03:35:50,587) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[9448:MainThread](2022-07-27 03:36:20,755) INFO - qlib.timer - [log.py:113] - Time cost: 30.162s | Loading data Done
+[9448:MainThread](2022-07-27 03:36:20,755) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 03:36:39,021] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 07:40:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'FLOWBUSD', 'origClientOrderId': 'iOCFtnF4Pay56qzWkUzEqg', 'orderId': 45209270, 'orderListId': -1, 'clientOrderId': 'xlH028cXLMyBSbLGZXnuFt', 'price': '1.61000000', 'origQty': '172.77000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'SELL'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 07:40:00 UTC  or 2022-07-27 03:40:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 03:40:37.593 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 03:40:38.002 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 03:40:38.096 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 03:40:44.609 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 03:40:45.151 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[35948:MainThread](2022-07-27 03:40:45,157) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[35948:MainThread](2022-07-27 03:40:47,161) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[35948:MainThread](2022-07-27 03:40:47,360) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[35948:MainThread](2022-07-27 03:40:47,361) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[35948:MainThread](2022-07-27 03:41:17,934) INFO - qlib.timer - [log.py:113] - Time cost: 30.566s | Loading data Done
+[35948:MainThread](2022-07-27 03:41:17,934) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 03:41:35,801] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 07:45:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 07:45:00 UTC  or 2022-07-27 03:45:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 03:45:37.306 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 03:45:37.781 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 03:45:37.877 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 03:45:44.497 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 03:45:45.027 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[36048:MainThread](2022-07-27 03:45:45,032) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[36048:MainThread](2022-07-27 03:45:47,035) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[36048:MainThread](2022-07-27 03:45:47,234) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[36048:MainThread](2022-07-27 03:45:47,235) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[36048:MainThread](2022-07-27 03:46:17,603) INFO - qlib.timer - [log.py:113] - Time cost: 30.362s | Loading data Done
+[36048:MainThread](2022-07-27 03:46:17,603) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 03:46:35,206] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 07:50:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 07:50:00 UTC  or 2022-07-27 03:50:00 EST
+5min
+[43.436599, -69.695322]
+{'RADBUSD': 68.34852146}
+buy RADBUSD, 68.3
+{'symbol': 'RADBUSD', 'orderId': 35846497, 'orderListId': -1, 'clientOrderId': 'Gbv3sTLKXqSl85GuS4k4hA', 'transactTime': 1658908294551}
+Completed {'RADBUSD': 68.34852146}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 03:50:37.200 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 03:50:37.602 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 03:50:37.708 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 03:50:44.360 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 03:50:44.892 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[39584:MainThread](2022-07-27 03:50:44,898) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[39584:MainThread](2022-07-27 03:50:46,901) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[39584:MainThread](2022-07-27 03:50:47,103) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[39584:MainThread](2022-07-27 03:50:47,103) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[39584:MainThread](2022-07-27 03:51:16,855) INFO - qlib.timer - [log.py:113] - Time cost: 29.745s | Loading data Done
+[39584:MainThread](2022-07-27 03:51:16,855) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 03:51:33,985] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 07:55:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 07:55:00 UTC  or 2022-07-27 03:55:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 03:55:37.534 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 03:55:37.942 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 03:55:38.036 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 03:55:44.648 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 03:55:45.174 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[4664:MainThread](2022-07-27 03:55:45,179) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[4664:MainThread](2022-07-27 03:55:47,185) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[4664:MainThread](2022-07-27 03:55:47,402) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[4664:MainThread](2022-07-27 03:55:47,403) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[4664:MainThread](2022-07-27 03:56:21,195) INFO - qlib.timer - [log.py:113] - Time cost: 33.786s | Loading data Done
+[4664:MainThread](2022-07-27 03:56:21,195) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 03:56:39,939] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 08:00:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 08:00:00 UTC  or 2022-07-27 04:00:00 EST
+5min
+[43.436599, -69.695322]
+sell RADBUSD, 68.2
+{'symbol': 'RADBUSD', 'orderId': 35886619, 'orderListId': -1, 'clientOrderId': 'KpN5EhEcnkgtl80OP0egGX', 'transactTime': 1658908898036}
+Completed {'RADBUSD': 68.2}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 04:00:38.700 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 04:00:39.171 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 04:00:39.264 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 04:00:45.810 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 04:00:46.356 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[32988:MainThread](2022-07-27 04:00:46,362) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[32988:MainThread](2022-07-27 04:00:48,365) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[32988:MainThread](2022-07-27 04:00:48,562) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[32988:MainThread](2022-07-27 04:00:48,562) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[32988:MainThread](2022-07-27 04:01:19,486) INFO - qlib.timer - [log.py:113] - Time cost: 30.917s | Loading data Done
+[32988:MainThread](2022-07-27 04:01:19,486) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 04:01:37,768] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 08:05:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 08:05:00 UTC  or 2022-07-27 04:05:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 04:05:42.545 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 04:05:42.900 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 04:05:42.984 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 04:05:49.033 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 04:05:49.505 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[31236:MainThread](2022-07-27 04:05:49,510) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[31236:MainThread](2022-07-27 04:05:51,513) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[31236:MainThread](2022-07-27 04:05:51,702) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[31236:MainThread](2022-07-27 04:05:51,703) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[31236:MainThread](2022-07-27 04:06:15,821) INFO - qlib.timer - [log.py:113] - Time cost: 24.113s | Loading data Done
+[31236:MainThread](2022-07-27 04:06:15,821) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 04:06:30,637] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 08:10:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 08:10:00 UTC  or 2022-07-27 04:10:00 EST
+5min
+[43.436599, -69.695322]
+{'CREAMBUSD': 18.1761002}
+{'TORNBUSD': 11.78446545}
+buy CREAMBUSD, 18.176
+{'symbol': 'CREAMBUSD', 'orderId': 71203724, 'orderListId': -1, 'clientOrderId': 'A42Srn8P5VozLWdgIETDay', 'transactTime': 1658909484420}
+Completed {'CREAMBUSD': 18.1761002}
+buy TORNBUSD, 11.78
+{'symbol': 'TORNBUSD', 'orderId': 45515692, 'orderListId': -1, 'clientOrderId': 'QTwqGDOvxH4PMimfa5h2xm', 'transactTime': 1658909485775}
+Completed {'TORNBUSD': 11.78446545}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 04:10:36.570 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 04:10:36.925 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 04:10:37.011 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 04:10:42.863 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 04:10:43.319 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[34608:MainThread](2022-07-27 04:10:43,324) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[34608:MainThread](2022-07-27 04:10:45,330) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[34608:MainThread](2022-07-27 04:10:45,512) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[34608:MainThread](2022-07-27 04:10:45,512) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[34608:MainThread](2022-07-27 04:11:08,942) INFO - qlib.timer - [log.py:113] - Time cost: 23.424s | Loading data Done
+[34608:MainThread](2022-07-27 04:11:08,942) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 04:11:24,164] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 08:15:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'CREAMBUSD', 'origClientOrderId': 'swetTDHKTSGCJlB31dPwJU', 'orderId': 71203748, 'orderListId': -1, 'clientOrderId': 'cM7lKplDXmnrC3L1FkxaIN', 'price': '15.10000000', 'origQty': '18.05600000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 08:15:00 UTC  or 2022-07-27 04:15:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 04:15:36.512 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 04:15:36.885 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 04:15:36.968 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 04:15:42.928 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 04:15:43.373 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[25212:MainThread](2022-07-27 04:15:43,379) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[25212:MainThread](2022-07-27 04:15:45,382) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[25212:MainThread](2022-07-27 04:15:45,561) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[25212:MainThread](2022-07-27 04:15:45,562) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[25212:MainThread](2022-07-27 04:16:09,529) INFO - qlib.timer - [log.py:113] - Time cost: 23.962s | Loading data Done
+[25212:MainThread](2022-07-27 04:16:09,530) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 04:16:25,922] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 08:20:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 08:20:00 UTC  or 2022-07-27 04:20:00 EST
+5min
+[43.436599, -69.695322]
+{'PONDBUSD': 18605.86047235}
+buy PONDBUSD, 18605.86
+{'symbol': 'PONDBUSD', 'orderId': 103502646, 'orderListId': -1, 'clientOrderId': 'IHZgic3xdzpajLhvEKuZze', 'transactTime': 1658910085925}
+Completed {'PONDBUSD': 18605.86047235}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 04:20:37.315 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 04:20:37.729 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 04:20:37.814 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 04:20:43.762 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 04:20:44.229 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[9296:MainThread](2022-07-27 04:20:44,235) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[9296:MainThread](2022-07-27 04:20:46,238) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[9296:MainThread](2022-07-27 04:20:46,427) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[9296:MainThread](2022-07-27 04:20:46,427) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[9296:MainThread](2022-07-27 04:21:10,663) INFO - qlib.timer - [log.py:113] - Time cost: 24.230s | Loading data Done
+[9296:MainThread](2022-07-27 04:21:10,664) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 04:21:25,675] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 08:25:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 08:25:00 UTC  or 2022-07-27 04:25:00 EST
+5min
+[43.436599, -69.695322]
+{'ALPHABUSD': 2251.53069048}
+buy ALPHABUSD, 2252.0
+{'symbol': 'ALPHABUSD', 'orderId': 159480780, 'orderListId': -1, 'clientOrderId': 'B3wZxPbIzv0WaRQgzHB2O9', 'transactTime': 1658910386937}
+Completed {'ALPHABUSD': 2251.53069048}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 04:25:37.810 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 04:25:38.165 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 04:25:38.257 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 04:25:44.164 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 04:25:44.604 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[36884:MainThread](2022-07-27 04:25:44,609) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[36884:MainThread](2022-07-27 04:25:46,613) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[36884:MainThread](2022-07-27 04:25:46,800) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[36884:MainThread](2022-07-27 04:25:46,800) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[36884:MainThread](2022-07-27 04:26:10,533) INFO - qlib.timer - [log.py:113] - Time cost: 23.727s | Loading data Done
+[36884:MainThread](2022-07-27 04:26:10,533) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 04:26:26,695] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 08:30:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 08:30:00 UTC  or 2022-07-27 04:30:00 EST
+5min
+[43.436599, -69.695322]
+{'RADBUSD': 64.93913047}
+buy RADBUSD, 64.9
+{'symbol': 'RADBUSD', 'orderId': 35952467, 'orderListId': -1, 'clientOrderId': '9A94w6xeFT2umtTXqPSVmQ', 'transactTime': 1658910690267}
+Completed {'RADBUSD': 64.93913047}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 04:30:39.558 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 04:30:39.970 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 04:30:40.055 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 04:30:46.014 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 04:30:46.480 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[38628:MainThread](2022-07-27 04:30:46,485) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[38628:MainThread](2022-07-27 04:30:48,489) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[38628:MainThread](2022-07-27 04:30:48,669) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[38628:MainThread](2022-07-27 04:30:48,669) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[38628:MainThread](2022-07-27 04:31:13,312) INFO - qlib.timer - [log.py:113] - Time cost: 24.637s | Loading data Done
+[38628:MainThread](2022-07-27 04:31:13,312) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 04:31:29,589] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 08:35:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 08:35:00 UTC  or 2022-07-27 04:35:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 04:35:37.685 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 04:35:38.089 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 04:35:38.177 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 04:35:44.092 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 04:35:44.560 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[42376:MainThread](2022-07-27 04:35:44,565) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[42376:MainThread](2022-07-27 04:35:46,569) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[42376:MainThread](2022-07-27 04:35:46,754) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[42376:MainThread](2022-07-27 04:35:46,755) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[42376:MainThread](2022-07-27 04:36:10,561) INFO - qlib.timer - [log.py:113] - Time cost: 23.800s | Loading data Done
+[42376:MainThread](2022-07-27 04:36:10,562) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 04:36:25,927] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 08:40:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 08:40:00 UTC  or 2022-07-27 04:40:00 EST
+5min
+[43.436599, -69.695322]
+{'AGLDBUSD': 629.0435281800001}
+{'LEVERBUSD': 88301.56858194}
+sell ORNBUSD, 203.3
+{'symbol': 'ORNBUSD', 'orderId': 43058776, 'orderListId': -1, 'clientOrderId': 'U9fZPhaMNbmC3E3KH9ljWs', 'transactTime': 1658911287108}
+Completed {'ORNBUSD': 203.3}
+buy AGLDBUSD, 629.0
+{'symbol': 'AGLDBUSD', 'orderId': 42037380, 'orderListId': -1, 'clientOrderId': 'bVRFq6EQn54gPhONncd7Fo', 'transactTime': 1658911288908}
+Completed {'AGLDBUSD': 629.0435281800001}
+buy LEVERBUSD, 88302.0
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 04:40:37.698 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 04:40:38.107 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 04:40:38.195 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 04:40:44.162 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 04:40:44.628 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[17924:MainThread](2022-07-27 04:40:44,634) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[17924:MainThread](2022-07-27 04:40:46,638) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[17924:MainThread](2022-07-27 04:40:46,820) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[17924:MainThread](2022-07-27 04:40:46,820) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[17924:MainThread](2022-07-27 04:41:11,171) INFO - qlib.timer - [log.py:113] - Time cost: 24.346s | Loading data Done
+[17924:MainThread](2022-07-27 04:41:11,172) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 04:41:26,874] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 08:45:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 08:45:00 UTC  or 2022-07-27 04:45:00 EST
+5min
+[43.436599, -69.695322]
+{'LEVERBUSD': 88852.25856349}
+buy LEVERBUSD, 88852.0
+{'symbol': 'LEVERBUSD', 'orderId': 13364442, 'orderListId': -1, 'clientOrderId': 'GgBONoDxdXcb3mQxpLuKeT', 'transactTime': 1658911586245}
+Completed {'LEVERBUSD': 88852.25856349}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 04:45:36.844 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 04:45:37.255 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 04:45:37.343 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 04:45:43.462 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 04:45:43.907 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[29464:MainThread](2022-07-27 04:45:43,912) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[29464:MainThread](2022-07-27 04:45:45,914) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[29464:MainThread](2022-07-27 04:45:46,101) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[29464:MainThread](2022-07-27 04:45:46,101) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[29464:MainThread](2022-07-27 04:46:10,790) INFO - qlib.timer - [log.py:113] - Time cost: 24.681s | Loading data Done
+[29464:MainThread](2022-07-27 04:46:10,790) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 04:46:26,012] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 08:50:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 08:50:00 UTC  or 2022-07-27 04:50:00 EST
+5min
+[43.436599, -69.695322]
+{'BETABUSD': 0.1}
+{'ALCXBUSD': 0.1}
+sell RADBUSD, 64.9
+{'symbol': 'RADBUSD', 'orderId': 36003558, 'orderListId': -1, 'clientOrderId': 'o3jkUNy4LEi71cMYSSAbaz', 'transactTime': 1658911885465}
+Completed {'RADBUSD': 64.9}
+sell ELFBUSD, 1740.0
+{'symbol': 'ELFBUSD', 'orderId': 35251888, 'orderListId': -1, 'clientOrderId': 'HMvHSQ6bXKdCMXw5Xkjqgi', 'transactTime': 1658911886814}
+Completed {'ELFBUSD': 1740.0}
+buy BETABUSD, 0.0
+APIError(code=-1013): Invalid quantity.
+buy ALCXBUSD, 0.1
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 04:50:35.856 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 04:50:36.237 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 04:50:36.325 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 04:50:42.401 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 04:50:42.861 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[39612:MainThread](2022-07-27 04:50:42,866) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[39612:MainThread](2022-07-27 04:50:44,870) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[39612:MainThread](2022-07-27 04:50:45,050) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[39612:MainThread](2022-07-27 04:50:45,050) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[39612:MainThread](2022-07-27 04:51:08,658) INFO - qlib.timer - [log.py:113] - Time cost: 23.602s | Loading data Done
+[39612:MainThread](2022-07-27 04:51:08,659) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 04:51:24,813] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 08:55:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'ELFBUSD', 'origClientOrderId': 'AGffjHiGMIpb6aZq6mmhtx', 'orderId': 35251899, 'orderListId': -1, 'clientOrderId': 'onThc9yC1yaGWqMO9TcNCN', 'price': '0.15810000', 'origQty': '1740.00000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'SELL'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 08:55:00 UTC  or 2022-07-27 04:55:00 EST
+5min
+[43.436599, -69.695322]
+{'BETABUSD': 2332.24281258}
+{'ATMBUSD': 64.58346779}
+sell BADGERBUSD, 64.81
+{'symbol': 'BADGERBUSD', 'orderId': 56960569, 'orderListId': -1, 'clientOrderId': 'dKxlzgcZw2IOn3La8MtGWy', 'transactTime': 1658912189518}
+Completed {'BADGERBUSD': 64.81}
+buy BETABUSD, 2332.0
+{'symbol': 'BETABUSD', 'orderId': 134998167, 'orderListId': -1, 'clientOrderId': 'oY2ognTZZgQoCw22O4Fhx7', 'transactTime': 1658912191314}
+Completed {'BETABUSD': 2332.24281258}
+buy ATMBUSD, 64.58
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 04:55:37.627 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 04:55:37.990 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 04:55:38.082 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 04:55:44.068 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 04:55:44.543 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[38216:MainThread](2022-07-27 04:55:44,549) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[38216:MainThread](2022-07-27 04:55:46,554) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[38216:MainThread](2022-07-27 04:55:46,738) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[38216:MainThread](2022-07-27 04:55:46,739) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[38216:MainThread](2022-07-27 04:56:11,933) INFO - qlib.timer - [log.py:113] - Time cost: 25.189s | Loading data Done
+[38216:MainThread](2022-07-27 04:56:11,934) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 04:56:29,022] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 09:00:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'BADGERBUSD', 'origClientOrderId': 'dKxlzgcZw2IOn3La8MtGWy', 'orderId': 56960569, 'orderListId': -1, 'clientOrderId': 'sBTs5mUVzwJFTbzrOlGq1U', 'price': '4.18000000', 'origQty': '64.81000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'SELL'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 09:00:00 UTC  or 2022-07-27 05:00:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 05:00:37.640 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 05:00:38.041 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 05:00:38.126 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 05:00:43.972 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 05:00:44.430 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[42336:MainThread](2022-07-27 05:00:44,436) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[42336:MainThread](2022-07-27 05:00:46,439) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[42336:MainThread](2022-07-27 05:00:46,625) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[42336:MainThread](2022-07-27 05:00:46,625) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[42336:MainThread](2022-07-27 05:01:10,330) INFO - qlib.timer - [log.py:113] - Time cost: 23.699s | Loading data Done
+[42336:MainThread](2022-07-27 05:01:10,330) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 05:01:25,728] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 09:05:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 09:05:00 UTC  or 2022-07-27 05:05:00 EST
+5min
+[43.436599, -69.695322]
+{'XNOBUSD': 0.1}
+{'ATMBUSD': 0.1}
+sell FLOWBUSD, 172.77
+{'symbol': 'FLOWBUSD', 'orderId': 45215115, 'orderListId': -1, 'clientOrderId': '6fvsj2TVSF3HTKvvf8Ffdp', 'transactTime': 1658912787854}
+Completed {'FLOWBUSD': 172.77}
+sell ALPHABUSD, 2252.0
+{'symbol': 'ALPHABUSD', 'orderId': 159483539, 'orderListId': -1, 'clientOrderId': 'A6pY2PXBcj8aEMJU7A5L8M', 'transactTime': 1658912789655}
+Completed {'ALPHABUSD': 2252.0}
+buy XNOBUSD, 0.1
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+buy ATMBUSD, 0.1
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 05:05:37.240 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 05:05:37.608 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 05:05:37.695 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 05:05:43.706 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 05:05:44.156 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[15700:MainThread](2022-07-27 05:05:44,162) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[15700:MainThread](2022-07-27 05:05:46,166) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[15700:MainThread](2022-07-27 05:05:46,348) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[15700:MainThread](2022-07-27 05:05:46,348) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[15700:MainThread](2022-07-27 05:06:10,882) INFO - qlib.timer - [log.py:113] - Time cost: 24.529s | Loading data Done
+[15700:MainThread](2022-07-27 05:06:10,882) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 05:06:27,646] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 09:10:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 09:10:00 UTC  or 2022-07-27 05:10:00 EST
+5min
+[43.436599, -69.695322]
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 05:10:37.039 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 05:10:37.466 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 05:10:37.551 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 05:10:43.584 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 05:10:44.050 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[42796:MainThread](2022-07-27 05:10:44,055) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[42796:MainThread](2022-07-27 05:10:46,060) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[42796:MainThread](2022-07-27 05:10:46,243) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[42796:MainThread](2022-07-27 05:10:46,244) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[42796:MainThread](2022-07-27 05:11:10,666) INFO - qlib.timer - [log.py:113] - Time cost: 24.414s | Loading data Done
+[42796:MainThread](2022-07-27 05:11:10,666) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 05:11:25,934] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 09:15:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 09:15:00 UTC  or 2022-07-27 05:15:00 EST
+5min
+[43.436599, -69.695322]
+{'ATMBUSD': 65.57569706}
+buy ATMBUSD, 65.58
+{'symbol': 'ATMBUSD', 'orderId': 19630393, 'orderListId': -1, 'clientOrderId': 'cOjc1ItDMtf2pRGT4ndS2c', 'transactTime': 1658913387028}
+Completed {'ATMBUSD': 65.57569706}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 05:15:36.455 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 05:15:36.868 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 05:15:36.955 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 05:15:43.012 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 05:15:43.483 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[43768:MainThread](2022-07-27 05:15:43,489) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[43768:MainThread](2022-07-27 05:15:45,493) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[43768:MainThread](2022-07-27 05:15:45,679) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[43768:MainThread](2022-07-27 05:15:45,679) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[43768:MainThread](2022-07-27 05:16:10,370) INFO - qlib.timer - [log.py:113] - Time cost: 24.686s | Loading data Done
+[43768:MainThread](2022-07-27 05:16:10,370) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 05:16:26,699] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 09:20:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'ATMBUSD', 'origClientOrderId': 'WwvL80BhaQwqxJD4hd7IAU', 'orderId': 19630459, 'orderListId': -1, 'clientOrderId': 'ruP367sdKdPDajxbhSzvk3', 'price': '4.11000000', 'origQty': '65.42000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 09:20:00 UTC  or 2022-07-27 05:20:00 EST
+5min
+[43.436599, -69.695322]
+{'ATMBUSD': 66.0513032}
+{'RADBUSD': 67.65428705000001}
+{'TOMOBUSD': 537.33643819}
+sell TORNBUSD, 11.78
+{'symbol': 'TORNBUSD', 'orderId': 45517347, 'orderListId': -1, 'clientOrderId': 'sczsXeh40Bfc201RfRE6i7', 'transactTime': 1658913692798}
+Completed {'TORNBUSD': 11.78}
+buy ATMBUSD, 66.05
+{'symbol': 'ATMBUSD', 'orderId': 19630473, 'orderListId': -1, 'clientOrderId': 'lChBWU0ac9hbUsnaVoxP0C', 'transactTime': 1658913694157}
+Completed {'ATMBUSD': 66.0513032}
+buy RADBUSD, 67.7
+{'symbol': 'RADBUSD', 'orderId': 36077036, 'orderListId': -1, 'clientOrderId': 'mqKY7StAvLi9DkjSyfDKZb', 'transactTime': 1658913695956}
+Completed {'RADBUSD': 67.65428705000001}
+buy TOMOBUSD, 537.3
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 05:20:39.758 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 05:20:40.176 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 05:20:40.261 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 05:20:46.321 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 05:20:46.793 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[30340:MainThread](2022-07-27 05:20:46,798) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[30340:MainThread](2022-07-27 05:20:48,803) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[30340:MainThread](2022-07-27 05:20:48,981) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[30340:MainThread](2022-07-27 05:20:48,981) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[30340:MainThread](2022-07-27 05:21:13,999) INFO - qlib.timer - [log.py:113] - Time cost: 25.013s | Loading data Done
+[30340:MainThread](2022-07-27 05:21:13,999) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 05:21:32,313] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 09:25:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'ATMBUSD', 'origClientOrderId': 'oSRXQDobSQ4sHkyz1RudSx', 'orderId': 19630491, 'orderListId': -1, 'clientOrderId': 'FedNGazVcEs3PymK1G2rlC', 'price': '4.12000000', 'origQty': '65.89000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 09:25:00 UTC  or 2022-07-27 05:25:00 EST
+5min
+[43.436599, -69.695322]
+{'CHESSBUSD': 721.88755588}
+sell MBLBUSD, 58562.0
+{'symbol': 'MBLBUSD', 'orderId': 16508482, 'orderListId': -1, 'clientOrderId': '652puohSfJWjfhJogmDVkt', 'transactTime': 1658913991677}
+Completed {'MBLBUSD': 58562.0}
+buy CHESSBUSD, 721.9
+{'symbol': 'CHESSBUSD', 'orderId': 31816721, 'orderListId': -1, 'clientOrderId': 'Iz0EgiDQJSZ7AZYfF1lo7o', 'transactTime': 1658913993477}
+Completed {'CHESSBUSD': 721.88755588}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 05:25:39.382 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 05:25:39.806 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 05:25:39.893 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 05:25:46.020 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 05:25:46.513 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[34556:MainThread](2022-07-27 05:25:46,518) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[34556:MainThread](2022-07-27 05:25:48,521) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[34556:MainThread](2022-07-27 05:25:48,703) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[34556:MainThread](2022-07-27 05:25:48,703) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[34556:MainThread](2022-07-27 05:26:14,011) INFO - qlib.timer - [log.py:113] - Time cost: 25.303s | Loading data Done
+[34556:MainThread](2022-07-27 05:26:14,012) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 05:26:30,607] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 09:30:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 09:30:00 UTC  or 2022-07-27 05:30:00 EST
+5min
+[43.436599, -69.695322]
+{'ATMBUSD': 66.80403352}
+buy ATMBUSD, 66.8
+{'symbol': 'ATMBUSD', 'orderId': 19630575, 'orderListId': -1, 'clientOrderId': 'ZMsPRyc8KyjSv3M1tjLY1t', 'transactTime': 1658914290165}
+Completed {'ATMBUSD': 66.80403352}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 05:30:38.499 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 05:30:38.927 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 05:30:39.014 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 05:30:45.152 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 05:30:45.628 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[44796:MainThread](2022-07-27 05:30:45,633) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[44796:MainThread](2022-07-27 05:30:47,637) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[44796:MainThread](2022-07-27 05:30:47,821) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[44796:MainThread](2022-07-27 05:30:47,821) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[44796:MainThread](2022-07-27 05:31:13,163) INFO - qlib.timer - [log.py:113] - Time cost: 25.337s | Loading data Done
+[44796:MainThread](2022-07-27 05:31:13,164) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 05:31:29,967] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 09:35:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'ATMBUSD', 'origClientOrderId': 'ZMsPRyc8KyjSv3M1tjLY1t', 'orderId': 19630575, 'orderListId': -1, 'clientOrderId': 'o9NtqsMKt75Q86FpjBbOH3', 'price': '4.11000000', 'origQty': '66.80000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 09:35:00 UTC  or 2022-07-27 05:35:00 EST
+5min
+[43.436599, -69.695322]
+{'JUVBUSD': 51.4396215}
+{'ATMBUSD': 66.96673001}
+buy JUVBUSD, 51.44
+{'symbol': 'JUVBUSD', 'orderId': 62747875, 'orderListId': -1, 'clientOrderId': 'baCzetO3BoAQIPpcoq4Y4F', 'transactTime': 1658914587565}
+Completed {'JUVBUSD': 51.4396215}
+buy ATMBUSD, 66.97
+{'symbol': 'ATMBUSD', 'orderId': 19630679, 'orderListId': -1, 'clientOrderId': 'RRkioi7SZ8VCREEJtDYRyi', 'transactTime': 1658914588917}
+Completed {'ATMBUSD': 66.96673001}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 05:35:41.216 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 05:35:41.570 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 05:35:41.655 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 05:35:47.410 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 05:35:47.847 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[36064:MainThread](2022-07-27 05:35:47,853) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[36064:MainThread](2022-07-27 05:35:49,856) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[36064:MainThread](2022-07-27 05:35:50,033) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[36064:MainThread](2022-07-27 05:35:50,033) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[36064:MainThread](2022-07-27 05:36:12,520) INFO - qlib.timer - [log.py:113] - Time cost: 22.480s | Loading data Done
+[36064:MainThread](2022-07-27 05:36:12,520) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 05:36:27,106] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 09:40:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'ATMBUSD', 'origClientOrderId': 'xYbCVfVE2uNFc39eWpvkRK', 'orderId': 19630702, 'orderListId': -1, 'clientOrderId': 'Mt7NsSxnZrpc7RoxQTAWWr', 'price': '4.12000000', 'origQty': '66.81000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 09:40:00 UTC  or 2022-07-27 05:40:00 EST
+5min
+[43.436599, -69.695322]
+{'ASTRBUSD': 6779.70630162}
+{'PLABUSD': 775.7329219100001}
+{'DEXEBUSD': 73.51552281000001}
+sell BADGERBUSD, 64.81
+{'symbol': 'BADGERBUSD', 'orderId': 56961746, 'orderListId': -1, 'clientOrderId': 'PwADYYIR4kypVWL8L3FTat', 'transactTime': 1658914885408}
+Completed {'BADGERBUSD': 64.81}
+sell BETABUSD, 2332.0
+{'symbol': 'BETABUSD', 'orderId': 135001572, 'orderListId': -1, 'clientOrderId': 'SZ0ROEuNZZIaU15pNvQ5QC', 'transactTime': 1658914886766}
+Completed {'BETABUSD': 2332.0}
+buy ASTRBUSD, 6779.7
+{'symbol': 'ASTRBUSD', 'orderId': 23348381, 'orderListId': -1, 'clientOrderId': 'ataG09R7okvGeaI7el67gH', 'transactTime': 1658914888116}
+Completed {'ASTRBUSD': 6779.70630162}
+buy PLABUSD, 775.73
+APIError(code=-2010): Account has insufficient balance for requested action.
+buy DEXEBUSD, 73.52
+APIError(code=-2010): Account has insufficient balance for requested action.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 05:40:38.147 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 05:40:38.558 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 05:40:38.641 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 05:40:44.375 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 05:40:44.806 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[44456:MainThread](2022-07-27 05:40:44,810) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[44456:MainThread](2022-07-27 05:40:46,815) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[44456:MainThread](2022-07-27 05:40:46,997) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[44456:MainThread](2022-07-27 05:40:46,997) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[44456:MainThread](2022-07-27 05:41:09,667) INFO - qlib.timer - [log.py:113] - Time cost: 22.661s | Loading data Done
+[44456:MainThread](2022-07-27 05:41:09,667) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 05:41:25,229] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 09:45:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'ASTRBUSD', 'origClientOrderId': 'ataG09R7okvGeaI7el67gH', 'orderId': 23348381, 'orderListId': -1, 'clientOrderId': 'jwiLDFI5rPSzMZWAyHjrn3', 'price': '0.04060000', 'origQty': '6779.70000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 09:45:00 UTC  or 2022-07-27 05:45:00 EST
+5min
+[43.436599, -69.695322]
+{'HIGHBUSD': 177.91577349}
+buy HIGHBUSD, 177.916
+{'symbol': 'HIGHBUSD', 'orderId': 15860430, 'orderListId': -1, 'clientOrderId': 'VB0CGfYHtMWiYpLbbZzp8i', 'transactTime': 1658915184883}
+Completed {'HIGHBUSD': 177.91577349}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 05:45:38.207 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 05:45:38.554 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 05:45:38.637 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 05:45:44.390 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 05:45:44.851 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[45252:MainThread](2022-07-27 05:45:44,856) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[45252:MainThread](2022-07-27 05:45:46,859) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[45252:MainThread](2022-07-27 05:45:47,044) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[45252:MainThread](2022-07-27 05:45:47,044) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[45252:MainThread](2022-07-27 05:46:09,806) INFO - qlib.timer - [log.py:113] - Time cost: 22.756s | Loading data Done
+[45252:MainThread](2022-07-27 05:46:09,806) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 05:46:24,590] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 09:50:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'HIGHBUSD', 'origClientOrderId': 'VB0CGfYHtMWiYpLbbZzp8i', 'orderId': 15860430, 'orderListId': -1, 'clientOrderId': 'fj7WMaVVFh6lTnyqm7zsp2', 'price': '1.52000000', 'origQty': '177.91600000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'BUY'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 09:50:00 UTC  or 2022-07-27 05:50:00 EST
+5min
+[43.436599, -69.695322]
+{'ALPINEBUSD': 113.79199073000001}
+buy ALPINEBUSD, 113.79
+{'symbol': 'ALPINEBUSD', 'orderId': 39346733, 'orderListId': -1, 'clientOrderId': 'RcVmvFWwWfHf9Tn6grlEOx', 'transactTime': 1658915485681}
+Completed {'ALPINEBUSD': 113.79199073000001}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 05:50:38.010 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 05:50:38.410 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 05:50:38.493 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 05:50:44.259 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 05:50:44.691 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[41648:MainThread](2022-07-27 05:50:44,696) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[41648:MainThread](2022-07-27 05:50:46,699) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[41648:MainThread](2022-07-27 05:50:46,887) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[41648:MainThread](2022-07-27 05:50:46,888) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[41648:MainThread](2022-07-27 05:51:09,806) INFO - qlib.timer - [log.py:113] - Time cost: 22.915s | Loading data Done
+[41648:MainThread](2022-07-27 05:51:09,807) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 05:51:25,242] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 09:55:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 09:55:00 UTC  or 2022-07-27 05:55:00 EST
+5min
+[43.436599, -69.695322]
+{'TVKBUSD': 5422.04441725}
+sell CHESSBUSD, 720.0
+{'symbol': 'CHESSBUSD', 'orderId': 31823438, 'orderListId': -1, 'clientOrderId': 'nG9Bgr5NBLF7Iw3lBT8uUl', 'transactTime': 1658915787249}
+Completed {'CHESSBUSD': 720.0}
+sell RADBUSD, 67.7
+{'symbol': 'RADBUSD', 'orderId': 36152442, 'orderListId': -1, 'clientOrderId': 'CzlgRZ4qWQmvPBA36KYBY2', 'transactTime': 1658915788601}
+Completed {'RADBUSD': 67.7}
+buy TVKBUSD, 5422.0
+{'symbol': 'TVKBUSD', 'orderId': 100077320, 'orderListId': -1, 'clientOrderId': 'aTki6B8I2QnxAHLBM55g1i', 'transactTime': 1658915789957}
+Completed {'TVKBUSD': 5422.04441725}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 05:55:38.507 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 05:55:38.901 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 05:55:38.985 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 05:55:44.725 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 05:55:45.147 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[42832:MainThread](2022-07-27 05:55:45,152) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[42832:MainThread](2022-07-27 05:55:47,158) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[42832:MainThread](2022-07-27 05:55:47,337) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[42832:MainThread](2022-07-27 05:55:47,338) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[42832:MainThread](2022-07-27 05:56:10,411) INFO - qlib.timer - [log.py:113] - Time cost: 23.068s | Loading data Done
+[42832:MainThread](2022-07-27 05:56:10,411) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 05:56:26,364] Using an existing study with name 'backtest' instead of creating a new one.
+{}
+2022-07-27 10:00:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-27 10:00:00 UTC  or 2022-07-27 06:00:00 EST
+5min
+[43.436599, -69.695322]
+{'MDXBUSD': 3275.75135216}
+buy MDXBUSD, 3275.8
+{'symbol': 'MDXBUSD', 'orderId': 43243369, 'orderListId': -1, 'clientOrderId': 'lTO0VxDsn7ukOMxS9RcCKL', 'transactTime': 1658916084908}
+Completed {'MDXBUSD': 3275.75135216}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-27 06:00:38.023 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-27 06:00:38.419 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-27 06:00:38.504 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-27 06:00:44.263 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-27 06:00:44.699 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[36416:MainThread](2022-07-27 06:00:44,704) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[36416:MainThread](2022-07-27 06:00:46,706) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[36416:MainThread](2022-07-27 06:00:46,887) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[36416:MainThread](2022-07-27 06:00:46,888) INFO - qlib.Initialization - [__init__.py:76] - data_path={'5min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/5m-qlib-temp')}
+[36416:MainThread](2022-07-27 06:01:09,783) INFO - qlib.timer - [log.py:113] - Time cost: 22.892s | Loading data Done
+[36416:MainThread](2022-07-27 06:01:09,784) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-07-27 06:01:24,306] Using an existing study with name 'backtest' instead of creating a new one.

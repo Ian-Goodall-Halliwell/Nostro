@@ -1,0 +1,145 @@
+
+Traceback (most recent call last):
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000174646C34C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000174646C34C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "create_orders.py", line 357, in <module>
+    fire.Fire(mainfunc)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "create_orders.py", line 342, in mainfunc
+    upd()
+  File "create_orders.py", line 270, in upd
+    client = Client("igEARWI7LNtjhzHa3zrNAMtLlLtUjnNb3VFHSHCf5Nlnga4h3vAzthAQKe8wLYlC",	"BM8EVK6TI5kHKQ7sORXpkwHet8mtq8alhOV5JJQ25kAIunKL7YkGgfc80inJad0I")
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 300, in __init__
+    self.ping()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 526, in ping
+    return self._get('ping', version=self.PRIVATE_API_VERSION)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 371, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 334, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 314, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\requests\sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000174646C34C0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Trades updated
+
+Traceback (most recent call last):
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001ECA72F4550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001ECA72F4550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "create_orders.py", line 357, in <module>
+    fire.Fire(mainfunc)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "create_orders.py", line 342, in mainfunc
+    upd()
+  File "create_orders.py", line 270, in upd
+    client = Client("igEARWI7LNtjhzHa3zrNAMtLlLtUjnNb3VFHSHCf5Nlnga4h3vAzthAQKe8wLYlC",	"BM8EVK6TI5kHKQ7sORXpkwHet8mtq8alhOV5JJQ25kAIunKL7YkGgfc80inJad0I")
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 300, in __init__
+    self.ping()
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 526, in ping
+    return self._get('ping', version=self.PRIVATE_API_VERSION)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 371, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 334, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\binance\client.py", line 314, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\requests\sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001ECA72F4550>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+Trades updated
+

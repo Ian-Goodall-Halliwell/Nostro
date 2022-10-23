@@ -1,0 +1,16 @@
+
+data_pulling/data-download/
+model/fea_label_df.pkl
+model/models/
+data_pulling/data-download/15m-qlib.zip
+model/pklhandlertest.pkl
+model/pklhandler.pkl
+model/yearlypreds.pkl
+model/pklhandlertest-noset.pkl
+model/pklhandlertestsmall.pkl
+data_pulling/data-download/5m-qlib-ol
+data_pulling/data-download/5m-unprocessed
+data_pulling/data-download/5m-unprocessed-new
+data_pulling/data-download/15m-qlib
+data_pulling/data-download/15m-unprocessed
+data_pulling/data-download/15m-temp

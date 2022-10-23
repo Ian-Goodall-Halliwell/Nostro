@@ -1,0 +1,43 @@
+{}
+2022-07-31 11:55:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+{'symbol': 'FLUXBUSD', 'origClientOrderId': 'SXHo4IcetN5ZcJGb5aT4ZX', 'orderId': 20373698, 'orderListId': -1, 'clientOrderId': 'C0ZEK6SUA5gMVPi8zEUydR', 'price': '0.56600000', 'origQty': '3758.84000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'CANCELED', 'timeInForce': 'GTC', 'type': 'LIMIT_MAKER', 'side': 'SELL'}
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-07-31 11:55:00 UTC  or 2022-07-31 07:55:00 EST
+1min
+[10000.0, -10000.0]
+{'FLOWBUSD': {'amnt': 0.1, 'price': 1.9800000190734863}}
+{'OMGBUSD': {'amnt': 0.1, 'price': 2.2739999294281006}}
+sell FLUXBUSD, 3758.84
+{'symbol': 'FLUXBUSD', 'orderId': 20373714, 'orderListId': -1, 'clientOrderId': 'ngVlEADYMV4JXHjdwLuhL0', 'transactTime': 1659268554726}
+Completed {'FLUXBUSD': 3758.84}
+sell BNBBUSD, 0.035
+sell BNBBUSD, 0.034
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+buy FLOWBUSD, 0.1
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+buy OMGBUSD, 0.1
+APIError(code=-1013): Filter failure: MIN_NOTIONAL
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-07-31 07:55:23.537 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-07-31 07:55:23.585 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-07-31 07:55:23.649 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-07-31 07:55:27.135 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-07-31 07:55:27.606 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[181180:MainThread](2022-07-31 07:55:27,610) INFO - qlib.Initialization - [config.py:398] - default_conf: client.
+[181180:MainThread](2022-07-31 07:55:29,618) WARNING - qlib.Initialization - [config.py:423] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[181180:MainThread](2022-07-31 07:55:29,791) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[181180:MainThread](2022-07-31 07:55:29,791) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+[181180:MainThread](2022-07-31 07:55:42,247) INFO - qlib.timer - [log.py:113] - Time cost: 12.450s | Loading data Done
+[181180:MainThread](2022-07-31 07:55:42,249) INFO - qlib.timer - [log.py:113] - Time cost: 0.002s | DropnaLabel Done
+[181180:MainThread](2022-07-31 07:55:42,252) INFO - qlib.timer - [log.py:113] - Time cost: 0.003s | CSZScoreNorm Done
+[181180:MainThread](2022-07-31 07:55:42,253) INFO - qlib.timer - [log.py:113] - Time cost: 0.005s | fit & process data Done
+[I 2022-07-31 07:55:54,706] Using an existing study with name 'backtest' instead of creating a new one.

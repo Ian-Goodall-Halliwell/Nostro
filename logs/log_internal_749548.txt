@@ -1,0 +1,32 @@
+{}
+2022-08-05 20:52:00
+3
+Trading for Ian
+Trading for Stu
+Trading for Nick
+APIError(code=-1102): illegal parameter
+Trading for time: 2022-08-05 20:52:00 UTC  or 2022-08-05 16:52:00 EST
+[5.709402, -5.409925]
+{'WAXPBUSD': {'amnt': 659.82072845, 'price': 0.11339999735355377}}
+buy WAXPBUSD, 660.0
+{'symbol': 'WAXPBUSD', 'orderId': 63675102, 'orderListId': -1, 'clientOrderId': 'YmsUotps7TZnXcQyWVRANy', 'transactTime': 1659732767626}
+Completed {'WAXPBUSD': 659.82072845}
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 16:52:13.915 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 16:52:13.940 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 16:52:13.988 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 16:52:19.911 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 16:52:20.955 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[139048:MainThread](2022-08-05 16:52:20,959) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[139048:MainThread](2022-08-05 16:52:22,963) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[139048:MainThread](2022-08-05 16:52:23,170) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[139048:MainThread](2022-08-05 16:52:23,171) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:06<00:06,  6.01s/it]100%|██████████| 2/2 [00:11<00:00,  5.73s/it]100%|██████████| 2/2 [00:11<00:00,  5.77s/it]
+[139048:MainThread](2022-08-05 16:52:34,719) INFO - qlib.timer - [log.py:113] - Time cost: 11.540s | Loading data Done
+[139048:MainThread](2022-08-05 16:52:34,719) INFO - qlib.timer - [log.py:113] - Time cost: 0.000s | fit & process data Done
+[I 2022-08-05 16:52:46,296] Using an existing study with name 'backtest' instead of creating a new one.

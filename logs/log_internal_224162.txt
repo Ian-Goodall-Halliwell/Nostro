@@ -1,0 +1,53 @@
+{}
+LightGBMError: The number of features in data (99) is not the same as it was in training data (100).
+You can set ``predict_disable_shape_check=true`` to discard this error, but please be aware what you are doing.
+C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\dateparser\date_parser.py:35: PytzUsageWarning:
+
+The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+
+2022-08-05 06:47:24.681 | INFO     | data_pulling.dump_bin:_load_all_source_data:443 - start load all source data....
+2022-08-05 06:47:24.769 | INFO     | data_pulling.dump_bin:_load_all_source_data:459 - end of load all data.
+
+2022-08-05 06:47:24.829 | INFO     | data_pulling.dump_bin:_dump_features:469 - start dump features......
+2022-08-05 06:47:29.060 | INFO     | data_pulling.dump_bin:_dump_features:505 - dump bin errors： {}
+2022-08-05 06:47:29.669 | INFO     | data_pulling.dump_bin:_dump_features:507 - end of features dump.
+
+[28652:MainThread](2022-08-05 06:47:29,674) INFO - qlib.Initialization - [config.py:401] - default_conf: client.
+[28652:MainThread](2022-08-05 06:47:31,676) WARNING - qlib.Initialization - [config.py:426] - redis connection failed(host=127.0.0.1 port=6379), DiskExpressionCache and DiskDatasetCache will not be used!
+[28652:MainThread](2022-08-05 06:47:31,883) INFO - qlib.Initialization - [__init__.py:74] - qlib successfully initialized based on client settings.
+[28652:MainThread](2022-08-05 06:47:31,884) INFO - qlib.Initialization - [__init__.py:76] - data_path={'1min': WindowsPath('C:/Users/Ian/Documents/Financial testing/data_pulling/data-download/1m-qlib')}
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:05<00:05,  5.63s/it]100%|██████████| 2/2 [00:10<00:00,  5.23s/it]100%|██████████| 2/2 [00:10<00:00,  5.29s/it]
+[28652:MainThread](2022-08-05 06:47:42,479) INFO - qlib.timer - [log.py:113] - Time cost: 10.589s | Loading data Done
+[28652:MainThread](2022-08-05 06:47:42,481) INFO - qlib.timer - [log.py:113] - Time cost: 0.002s | DropnaLabel Done
+[28652:MainThread](2022-08-05 06:47:42,485) INFO - qlib.timer - [log.py:113] - Time cost: 0.004s | CSZScoreNorm Done
+[28652:MainThread](2022-08-05 06:47:42,486) INFO - qlib.timer - [log.py:113] - Time cost: 0.007s | fit & process data Done
+[LightGBM] [Fatal] The number of features in data (99) is not the same as it was in training data (100).
+You can set ``predict_disable_shape_check=true`` to discard this error, but please be aware what you are doing.
+[28652:MainThread](2022-08-05 06:47:43,242) ERROR - qlib.workflow - [utils.py:38] - An exception has been raised[LightGBMError: The number of features in data (99) is not the same as it was in training data (100).
+You can set ``predict_disable_shape_check=true`` to discard this error, but please be aware what you are doing.].
+  File "create_orders.py", line 368, in <module>
+    fire.Fire(mainfunc)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 466, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\fire\core.py", line 681, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+  File "create_orders.py", line 360, in mainfunc
+    d = create_orders()
+  File "create_orders.py", line 41, in create_orders
+    model.run(d,False)
+  File "C:\Users\Ian\Documents\Financial testing\model.py", line 454, in run
+    preds = model.predict(dataset)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\qlib\contrib\model\gbdt.py", line 293, in predict
+    return pd.Series(self.model.predict(x_test.values), index=x_test.index)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\lightgbm\basic.py", line 3537, in predict
+    return predictor.predict(data, start_iteration, num_iteration,
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\lightgbm\basic.py", line 812, in predict
+    preds, nrow = self.__pred_for_np2d(data, start_iteration, num_iteration, predict_type)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\lightgbm\basic.py", line 902, in __pred_for_np2d
+    return inner_predict(mat, start_iteration, num_iteration, predict_type)
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\lightgbm\basic.py", line 872, in inner_predict
+    _safe_call(_LIB.LGBM_BoosterPredictForMat(
+  File "C:\Users\Ian\anaconda3\envs\qlbt\lib\site-packages\lightgbm\basic.py", line 141, in _safe_call
+    raise LightGBMError(_LIB.LGBM_GetLastError().decode('utf-8'))
